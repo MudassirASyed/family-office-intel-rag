@@ -1,0 +1,197 @@
+[
+  {
+    "name": "BANCORPSOUTH INC",
+    "cik": "0000701853",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: Tupelo, MS.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000701853&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2018-02-14",
+    "total_filings_on_record": 1000
+  },
+  {
+    "name": "CA Family Wealth, LLC",
+    "cik": "0001804673",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Beverly Hills, CA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001804673&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2020-05-19",
+    "total_filings_on_record": 4
+  },
+  {
+    "name": "Crestone Asset Management LLC",
+    "cik": "0001845617",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Boulder, CO.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001845617&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2024-07-23",
+    "total_filings_on_record": 36
+  },
+  {
+    "name": "DALTON GREINER HARTMAN MAHER & CO INC",
+    "cik": "0000866842",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: New York, NY.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000866842&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2021-08-16",
+    "total_filings_on_record": 408
+  },
+  {
+    "name": "FLEETBOSTON FINANCIAL CORP",
+    "cik": "0000050341",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: Boston, MA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050341&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2005-02-14",
+    "total_filings_on_record": 1008
+  },
+  {
+    "name": "FRIEDMAN BILLINGS RAMSEY INVESTMENT MANAGEMENT INC /",
+    "cik": "0001008875",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: Arlington, VA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001008875&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2004-11-10",
+    "total_filings_on_record": 35
+  },
+  {
+    "name": "HALE & DORR CAPITAL MANAGEMENT LLC",
+    "cik": "0000922899",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family capital'. Location: Boston, MA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000922899&type=13F-HR",
+    "matched_keywords": [
+      "family capital"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2014-02-13",
+    "total_filings_on_record": 95
+  },
+  {
+    "name": "LOEB ARBITRAGE MANAGEMENT INC",
+    "cik": "0001056569",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: Newyork, NY.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001056569&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2015-02-17",
+    "total_filings_on_record": 136
+  },
+  {
+    "name": "Meristem Family Wealth, LLC",
+    "cik": "0001511915",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Minnetonka, MN.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001511915&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2022-11-14",
+    "total_filings_on_record": 50
+  },
+  {
+    "name": "Mosaic Family Wealth, LLC",
+    "cik": "0001674343",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: St. Louis, MO.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001674343&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2022-01-25",
+    "total_filings_on_record": 25
+  },
+  {
+    "name": "NORTH AMERICAN MANAGEMENT CORP",
+    "cik": "0000861462",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family capital'. Location: Boston, MA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000861462&type=13F-HR",
+    "matched_keywords": [
+      "family capital"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2021-04-09",
+    "total_filings_on_record": 96
+  },
+  {
+    "name": "ROCKEFELLER FINANCIAL SERVICES INC",
+    "cik": "0000869878",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: New York, NY.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000869878&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2018-02-02",
+    "total_filings_on_record": 81
+  },
+  {
+    "name": "TRUST & FIDUCIARY MANAGEMENT SERVICES INC",
+    "cik": "0001141800",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family capital'. Location: Boston, MA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001141800&type=13F-HR",
+    "matched_keywords": [
+      "family capital"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2016-02-10",
+    "total_filings_on_record": 41
+  },
+  {
+    "name": "Veritable, L.P.",
+    "cik": "0001300311",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Wilmington, DE.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001300311&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2023-11-14",
+    "total_filings_on_record": 97
+  },
+  {
+    "name": "WORLD ASSET MANAGEMENT LLC",
+    "cik": "0000945628",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: Birmingham, MI.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000945628&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": false,
+    "most_recent_filing_date": "2001-11-08",
+    "total_filings_on_record": 12
+  }
+]

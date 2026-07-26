@@ -1,0 +1,257 @@
+[
+  {
+    "name": "Adar Poonawalla Family Office",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" acquisition",
+      "\"family office\" invests",
+      "\"family office\" backed"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" acquisition'",
+    "source_url": "https://economictimes.indiatimes.com/industry/renewables/adar-poonawalla-family-office-invests-rs-700-crore-in-inox-clean/articleshow/132132364.cms",
+    "source_title": "Adar Poonawalla Family Office invests Rs 700 crore in Inox Clean"
+  },
+  {
+    "name": "Arax Advisory Partners",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" backed"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" backed'",
+    "source_url": "https://www.globenewswire.com/news-release/2026/07/23/3332300/0/en/Arax-Signs-Definitive-Agreement-to-Acquire-3-Billion-RIA-Transcend-Capital-Advisors.html",
+    "source_title": "Arax Signs Definitive Agreement to Acquire $3 Billion RIA Transcend Capital Advisors"
+  },
+  {
+    "name": "Avista Healthcare Partners",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" acquisition"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" acquisition'",
+    "source_url": "https://www.prnewswire.com/news-releases/avista-healthcare-partners-acquires-sanotact-group-gmbh-302815055.html",
+    "source_title": "Avista Healthcare Partners Acquires Sanotact Group GmbH"
+  },
+  {
+    "name": "Backed Manor Park Ventures",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" backed"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" backed'",
+    "source_url": "https://www.prnewswire.com/news-releases/family-office-backed-manor-park-ventures-and-brook-farm-group-break-ground-on-336-unit-community-in-booming-savannah-market-302810774.html",
+    "source_title": "Family Office-Backed Manor Park Ventures and Brook Farm Group Break Ground on 336-Unit Community in Booming Savannah Market"
+  },
+  {
+    "name": "Billion RIA Transcend Capital",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" backed"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" backed'",
+    "source_url": "https://www.globenewswire.com/news-release/2026/07/23/3332300/0/en/Arax-Signs-Definitive-Agreement-to-Acquire-3-Billion-RIA-Transcend-Capital-Advisors.html",
+    "source_title": "Arax Signs Definitive Agreement to Acquire $3 Billion RIA Transcend Capital Advisors"
+  },
+  {
+    "name": "CX Partners",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" backed",
+      "\"family office\" stake"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" backed'",
+    "source_url": "https://www.livemint.com/companies/cx-partners-thalappakatti-hotels-stake-sale-private-equity-exit-hospitality-investment-11784515720531.html",
+    "source_title": "CX Partners plans exit from Thalappakatti Hotels after seven years"
+  },
+  {
+    "name": "Clean Energy Adar Poonawalla Family Office",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" acquisition",
+      "\"family office\" invests",
+      "\"family office\" backed"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" acquisition'",
+    "source_url": "https://www.thehindubusinessline.com/companies/adar-poonawalla-family-office-invests-700-cr-in-inox-clean-energy/article71173529.ece",
+    "source_title": "Adar Poonawalla Family Office invests \u20b9700 cr in Inox Clean Energy"
+  },
+  {
+    "name": "Duquesne Family Office",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" billionaire",
+      "\"family office\" stake"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" billionaire'",
+    "source_url": "https://biztoc.com/x/77e9275c5f71c523",
+    "source_title": "The Billionaire Who Sold Nvidia Too Early Just Bought 196,000 Shares of Broadcom -- Here's the Thesis Behind the Rotation"
+  },
+  {
+    "name": "EOS Capital",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" acquisition",
+      "\"family office\" stake"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" acquisition'",
+    "source_url": "https://en.protothema.gr/2026/07/21/latsco-family-office-and-eos-capital-acquire-30-stake-in-nova-ict-in-partnership-with-motor-oil/",
+    "source_title": "Latsco family office and EOS Capital acquire 30% stake in Nova ICT in partnership with Motor Oil"
+  },
+  {
+    "name": "Family Office Partners",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" backed",
+      "\"family office\" stake"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" backed'",
+    "source_url": "https://www.globenewswire.com/news-release/2026/07/24/3332907/0/en/Correction-Family-Office-Partners-Expands-into-Houston-with-Addition-of-Patrick-Keller-and-Andrew-C-Keller.html",
+    "source_title": "Correction: Family Office Partners Expands into Houston with Addition of Patrick Keller and Andrew C. Keller"
+  },
+  {
+    "name": "Greenwall Capital",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" acquisition",
+      "\"family office\" billionaire",
+      "\"family office\" stake"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" acquisition'",
+    "source_url": "http://commercialobserver.com/2026/07/pgim-coral-gables-ponce/",
+    "source_title": "PGIM Sells Coral Gables Office Complex for $98M"
+  },
+  {
+    "name": "Halogen Ventures",
+    "source": "news_search",
+    "matched_queries": [
+      "family office"
+    ],
+    "notes": "Extracted from NewsAPI query 'family office'",
+    "source_url": "https://www.businessinsider.com/day-in-the-life-halogen-ventures-founder-jesse-draper-2026-7#article",
+    "source_title": "I'm a VC founder and busy boy mom. Here's a day in my life \u2014 and my 3 favorite AI prompts that help"
+  },
+  {
+    "name": "Intalex Capital",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" acquisition",
+      "\"family office\" billionaire",
+      "\"family office\" stake"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" acquisition'",
+    "source_url": "http://commercialobserver.com/2026/07/pgim-coral-gables-ponce/",
+    "source_title": "PGIM Sells Coral Gables Office Complex for $98M"
+  },
+  {
+    "name": "Khosla Ventures",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" stake"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" stake'",
+    "source_url": "https://www.livemint.com/companies/even-healthcare-startup-funding-round-health-insurance-equity-khosla-ventures-investors-startup-11784601483042.html",
+    "source_title": "Even Healthcare raising $50 million in fresh equity led by Khosla Ventures"
+  },
+  {
+    "name": "Kothari Family Office",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" launches"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" launches'",
+    "source_url": "https://www.thehindubusinessline.com/markets/aurrevia-launches-category-iii-aif-with-10-million-anchor-from-kothari-family-office/article71225309.ece",
+    "source_title": "Aurrevia launches Category III AIF with $10 million anchor from Kothari Family Office"
+  },
+  {
+    "name": "Manor Park Ventures",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" backed"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" backed'",
+    "source_url": "https://www.prnewswire.com/news-releases/family-office-backed-manor-park-ventures-and-brook-farm-group-break-ground-on-336-unit-community-in-booming-savannah-market-302810774.html",
+    "source_title": "Family Office-Backed Manor Park Ventures and Brook Farm Group Break Ground on 336-Unit Community in Booming Savannah Market"
+  },
+  {
+    "name": "News Planet First Partners",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" invests"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" invests'",
+    "source_url": "https://www.planetfirst.partners/news/planet-first-partners-invests-in-iterative-health",
+    "source_title": "Planet First Partners Invests in Iterative Health | Planet First Partners News"
+  },
+  {
+    "name": "Notable Capital",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" backed"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" backed'",
+    "source_url": "https://www.prnewswire.com/news-releases/beacon-security-raises-13-million-in-seed-funding-to-give-ai-agents-a-trustworthy-data-foundation-for-cyber-defense-302826450.html",
+    "source_title": "Beacon Security Raises $13 Million in Seed Funding to Give AI Agents a Trustworthy Data Foundation for Cyber Defense"
+  },
+  {
+    "name": "Planet First Partners",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" invests"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" invests'",
+    "source_url": "https://www.planetfirst.partners/news/planet-first-partners-invests-in-iterative-health",
+    "source_title": "Planet First Partners Invests in Iterative Health | Planet First Partners News"
+  },
+  {
+    "name": "Popo Ventures",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" acquisition",
+      "\"family office\" stake"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" acquisition'",
+    "source_url": "https://www.livemint.com/companies/invus-group-popo-ventures-the-pizza-bakery-paris-panini-smash-guys-restaurant-sector-qsr-private-equity-11783671661893.html",
+    "source_title": "Global PE firm Invus nears \u20b9500 crore minority stake in restaurant operator Popo Ventures"
+  },
+  {
+    "name": "Rising Sun Holdings",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" acquisition",
+      "\"family office\" invests",
+      "\"family office\" backed"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" acquisition'",
+    "source_url": "https://www.thehindubusinessline.com/companies/adar-poonawalla-family-office-invests-700-cr-in-inox-clean-energy/article71173529.ece",
+    "source_title": "Adar Poonawalla Family Office invests \u20b9700 cr in Inox Clean Energy"
+  },
+  {
+    "name": "Sharrp Ventures",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" stake"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" stake'",
+    "source_url": "https://economictimes.indiatimes.com/tech/funding/contract-manufacturer-naturis-cosmetics-raises-rs-100-crore-led-by-sharrp-ventures/articleshow/132434937.cms",
+    "source_title": "Contract manufacturer Naturis Cosmetics raises Rs 100 crore led by Sharrp Ventures"
+  },
+  {
+    "name": "Transcend Capital",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" backed"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" backed'",
+    "source_url": "https://www.globenewswire.com/news-release/2026/07/23/3332300/0/en/Arax-Signs-Definitive-Agreement-to-Acquire-3-Billion-RIA-Transcend-Capital-Advisors.html",
+    "source_title": "Arax Signs Definitive Agreement to Acquire $3 Billion RIA Transcend Capital Advisors"
+  },
+  {
+    "name": "Wealth Partners",
+    "source": "news_search",
+    "matched_queries": [
+      "\"family office\" acquisition"
+    ],
+    "notes": "Extracted from NewsAPI query '\"family office\" acquisition'",
+    "source_url": "https://www.wealthmanagement.com/ria-news/clearstead-expands-national-presence-with-addition-of-strategic-team-in-philadelphia",
+    "source_title": "Clearstead Acquires $5.6B RIA Team From myCIO Wealth Partners"
+  }
+]

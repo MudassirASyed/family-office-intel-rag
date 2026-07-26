@@ -1,0 +1,876 @@
+[
+  {
+    "name": "Hillspire",
+    "principal_name": "Eric Schmidt",
+    "principal_title": "Principal",
+    "city": "Reno",
+    "state": "NV",
+    "country": "USA",
+    "description": "Family office of Eric and Wendy Schmidt (former Google CEO). Linked philanthropic entities confirmed via ProPublica: Schmidt Family Foundation (Chicago, IL) and Schmidt Ocean Institute (Palo Alto, CA).",
+    "recent_activity": "Ranked #1 in CNBC's inaugural Inside Wealth Family Office 15 (Feb 2026); 15 investments in 2025, mostly AI.",
+    "recent_activity_date": "2026-02-12",
+    "enrichment_notes": "City/state (Reno, NV) is commonly cited for Hillspire but was NOT independently verified this session - treat as lower-confidence until confirmed."
+  },
+  {
+    "name": "Bezos Expeditions",
+    "principal_name": "Jeff Bezos",
+    "principal_title": "Principal",
+    "recent_activity": "Backed Unconventional AI and Physical Intelligence; ranked #2 in CNBC's 2026 Family Office 15. Backed five AI startups in June 2026 per separate CNBC coverage.",
+    "recent_activity_date": "2026-07-02"
+  },
+  {
+    "name": "Thiel Capital",
+    "principal_name": "Peter Thiel",
+    "principal_title": "Principal",
+    "recent_activity": "Listed among most active family offices for 2025 dealmaking per CNBC's Inside Wealth Family Office 15.",
+    "recent_activity_date": "2026-02-12"
+  },
+  {
+    "name": "Jaws Estates Capital",
+    "principal_name": "Barry Sternlicht",
+    "principal_title": "Principal",
+    "description": "Linked philanthropic entities confirmed via ProPublica: The Barry S Sternlicht Foundation and Barry And Mimi Sternlicht Foundation (both Wilmington, DE), indicating spouse Mimi Sternlicht.",
+    "recent_activity": "Listed among most active family offices for 2025 dealmaking per CNBC's Inside Wealth Family Office 15.",
+    "recent_activity_date": "2026-02-12"
+  },
+  {
+    "name": "Wildcat Capital Management",
+    "principal_name": "David Bonderman (d. Dec 2024)",
+    "principal_title": "Founder",
+    "description": "Founded 2011 as the single-family office of David Bonderman, TPG co-founder.",
+    "investing_sectors": "Public equities, direct investments",
+    "recent_activity": "Sold 1.5 million shares of TIC Solutions in Q3 2025, worth an estimated $16.56 million.",
+    "recent_activity_date": "2025-12-26"
+  },
+  {
+    "name": "Duquesne Family Office",
+    "principal_name": "Stanley Druckenmiller",
+    "principal_title": "Principal",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "aum": "$3.4B in reportable 13F holdings as of most recent filing (2026-05-15); not total net worth",
+    "investing_sectors": "Public equities, technology, healthcare",
+    "recent_activity": "Top 13F holding as of 2026-05-15: Natera Inc, $612.7M. Also exited positions in Entegris and ON Semiconductor per CNBC 13F coverage; new Q4 2025 position in Bloom Energy.",
+    "recent_activity_date": "2026-05-15"
+  },
+  {
+    "name": "Kemnay Advisory Services",
+    "principal_name": "Alan M. Parker",
+    "principal_title": "Principal",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "description": "Formed 2012 by Alan M. Parker after the 1997 sale of a 20% stake in Duty Free Shoppers Group to LVMH. Directed by the Parker family from Geneva with operational ties to New York. Investment advisor support from PJT Park Hill since 2022.",
+    "investing_sectors": "Private equity, hedge funds, secondaries, real estate, public equities",
+    "recent_activity": "Increased Coinbase position ~44% in Q4 2025 per CNBC 13F coverage. NOTE: the raw 13F table total (~$622B) is NOT usable as an AUM figure - see SYSTEM_DESIGN.md for why.",
+    "recent_activity_date": "2026-02-26"
+  },
+  {
+    "name": "Allie Family Office LLC",
+    "principal_name": "Bruno Ghio",
+    "principal_title": "Sole Owner",
+    "city": "Miami",
+    "state": "FL",
+    "country": "USA",
+    "description": "Founded September 2019. Focuses on Peruvian and broader Latin American HNW families and multi-generational family governance.",
+    "aum": "~$1.15B as of Dec 31, 2024 ($508.69M discretionary, $637.88M limited discretionary)",
+    "website": "https://allie-intl.com"
+  },
+  {
+    "name": "Arrowroot Family Office, LLC",
+    "principal_name": "Rob Santos",
+    "principal_title": "CEO / Principal Owner",
+    "city": "Marina del Rey",
+    "state": "CA",
+    "country": "USA",
+    "description": "Founded 2013 as 'Vitreous Partners' by ex-investment banker Rob Santos, rebranded 2017. ~18 employees.",
+    "website": "https://arrowrootfamilyoffice.com"
+  },
+  {
+    "name": "Avantra Family Wealth, Inc.",
+    "principal_name": "Kim Kenawell",
+    "principal_title": "Founder & CEO / Senior Wealth Advisor",
+    "city": "Mechanicsburg",
+    "state": "PA",
+    "country": "USA",
+    "aum": "$194.4M across 990 accounts (967 discretionary, 23 non-discretionary)",
+    "website": "https://www.avantrafamilywealth.com"
+  },
+  {
+    "name": "BOSTON FAMILY OFFICE LLC",
+    "principal_name": "George Putnam III, George Beal",
+    "principal_title": "Founding Partners",
+    "city": "Boston",
+    "state": "MA",
+    "country": "USA",
+    "description": "Founded 1996 by a group including David Richardson Jr., George Putnam III, Ned Weld, Dick Macklem, George Beal, and Solange Bell. Descendants of the Putnam and Richardson families remain involved alongside other partners.",
+    "aum": "$1.87B",
+    "website": "https://www.bosfam.com"
+  },
+  {
+    "name": "Biltmore Family Office, LLC",
+    "principal_name": "Chris Cecil",
+    "principal_title": "Founder & President",
+    "city": "Charlotte",
+    "state": "NC",
+    "country": "USA",
+    "description": "Founded 2008 by Chris Cecil, a great-grandson of George Vanderbilt; began serving outside clients in 2013.",
+    "website": "https://www.biltmorefamilyoffice.com"
+  },
+  {
+    "name": "CVA Family Office, LLC",
+    "principal_name": "Matt Blackburn, Chris Younger, David Tolson, Dalyce Tinoco",
+    "principal_title": "Co-Founders (Blackburn: Managing Partner)",
+    "city": "Denver",
+    "state": "CO",
+    "country": "USA",
+    "description": "Founded September 2016, now operates as 'Class VI Family Office, LLC'. Focuses on HNW entrepreneurs and business owners."
+  },
+  {
+    "name": "Callan Family Office, LLC",
+    "principal_name": "Jack Ginter",
+    "principal_title": "Founder & CEO",
+    "city": "Radnor",
+    "state": "PA",
+    "country": "USA",
+    "description": "Founded 2022 by former Abbot Downing/Wells Fargo Private Bank executives; grew to 23 partners. 'Callan' is a licensed trademark from unrelated institutional consulting firm Callan LLC.",
+    "aum": "$10.2B",
+    "website": "https://callanfamilyoffice.com"
+  },
+  {
+    "name": "Capitol Family Office, Inc.",
+    "principal_name": "Mark Nortman, Erica Nortman",
+    "principal_title": "Contacts/Principals",
+    "city": "Beaverton",
+    "state": "OR",
+    "country": "USA",
+    "description": "Established 2011."
+  },
+  {
+    "name": "Custos Family Office, LLC",
+    "principal_name": "Tony Lopiccolo, Mitchell Herr",
+    "principal_title": "Founding Principal & CIO (Lopiccolo)",
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA",
+    "description": "Founded 2018, partner-owned, fee-only. Team of 6 advisors.",
+    "aum": "~$500-730M",
+    "website": "https://custosfo.com"
+  },
+  {
+    "name": "EMFO, LLC",
+    "principal_name": "Scot Hunter, Allan Budelman",
+    "principal_title": "Co-Founders (Melissa Budelman: Managing Partner/CCO)",
+    "city": "Weston",
+    "state": "FL",
+    "country": "USA",
+    "description": "Legal name Emerald Multi-Family Office, LLC. Scot Hunter was an original investor in Ultimate Software Group (taken private for $11B in 2019).",
+    "website": "https://emeraldfamilyoffice.com"
+  },
+  {
+    "name": "FAMILY CAPITAL TRUST CO., NA",
+    "city": "Peabody",
+    "state": "MA",
+    "country": "USA",
+    "description": "NH-chartered corporate trustee founded 1999, manages family trusts and multi-generation wealth. Principals have 100+ combined years in trust/wealth management.",
+    "investing_sectors": "High-quality stocks, bonds, master limited partnerships, conservative fixed income",
+    "website": "https://famcaptrust.com"
+  },
+  {
+    "name": "Family Management Corp",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "description": "SEC-registered since 1990 (registered name: Family Manage LLC). Maintains no public website presence for principals - deliberately private, 23 employees/advisers.",
+    "aum": "$5.3B ($5.2B discretionary)",
+    "website": "https://www.familymanage.com"
+  },
+  {
+    "name": "Family Office Research LLC",
+    "principal_name": "Scott M. Freund",
+    "principal_title": "Founder (owned with Emily Freund)",
+    "city": "Bethesda",
+    "state": "MD",
+    "country": "USA",
+    "description": "Founded 2005. Provides investment management, tax/estate planning, insurance/risk management, private banking, family governance.",
+    "website": "https://www.familyofficeresearch.com"
+  },
+  {
+    "name": "Fortitude Family Office, LLC",
+    "principal_name": "Matt Walker",
+    "principal_title": "Founder (CPA)",
+    "city": "Scottsdale",
+    "state": "AZ",
+    "country": "USA",
+    "description": "Founded 2021. Advises a select roster of HNW/UHNW families - investment management, private credit, tax planning.",
+    "aum": "$640M+",
+    "website": "https://fortitudefo.com"
+  },
+  {
+    "name": "Fusion Family Wealth LLC",
+    "principal_name": "Jonathan Blau",
+    "principal_title": "Founder & CEO",
+    "city": "Woodbury",
+    "state": "NY",
+    "country": "USA",
+    "description": "Founded 2013 after Blau departed UBS. Father Harvey Blau was formerly CEO of Griffon Corporation.",
+    "aum": "~$1.5B",
+    "website": "https://www.fusionfamilywealth.com"
+  },
+  {
+    "name": "Geller Family Office Services, LLC",
+    "principal_name": "Martin J. Geller",
+    "principal_title": "Founder",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "description": "Founded 1984, evolved into full-service Geller & Company. Acquired by Corient (Jan 2025) as a $10.4B multi-family office business."
+  },
+  {
+    "name": "Independent Family Office, LLC",
+    "principal_name": "W. Michael Reickert",
+    "principal_title": "Founder",
+    "city": "Albany",
+    "state": "NY",
+    "country": "USA",
+    "description": "Founded 2005 after Reickert led the family office practice at the Ayco Company.",
+    "website": "https://ifollc.com"
+  },
+  {
+    "name": "Kopp Family Office, LLC",
+    "principal_name": "LeRoy 'Lee' C. Kopp (d. 2020)",
+    "principal_title": "Founder (Lindsey Lang: current President)",
+    "city": "Bloomington",
+    "state": "MN",
+    "country": "USA",
+    "description": "Established 2016 after Kopp's decades running Kopp Investment Advisors. Related Kopp Family Foundation is a real, active philanthropic entity."
+  },
+  {
+    "name": "LBJ Family Wealth Advisors, Ltd.",
+    "principal_name": "Luci Baines Johnson",
+    "principal_title": "Founder",
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA",
+    "description": "Founded 2003 by Luci Baines Johnson, daughter of President Lyndon B. Johnson and Lady Bird Johnson.",
+    "website": "https://lbjadvisors.com"
+  },
+  {
+    "name": "Pathstone Family Office, LLC",
+    "principal_name": "Steve Braverman, Allan Zachariah (Matthew Fleissig: current CEO)",
+    "principal_title": "Co-Founders",
+    "city": "Fort Lee",
+    "state": "NJ",
+    "country": "USA",
+    "description": "Founded 2010 by former Harris myCFO managing directors. Also operates in Atlanta and Naples, FL."
+  },
+  {
+    "name": "Tarbox Family Office, Inc.",
+    "principal_name": "Laura Tarbox",
+    "principal_title": "Founder (CFP, 1984)",
+    "city": "Newport Beach",
+    "state": "CA",
+    "country": "USA",
+    "description": "Founded 1985. Fee-only, 100+ client families.",
+    "aum": "$1B+",
+    "website": "https://tarbox.com"
+  },
+  {
+    "name": "West Family Investments, Inc.",
+    "principal_name": "Gary West",
+    "principal_title": "Managing Principal (with Mary West)",
+    "city": "Carlsbad",
+    "state": "CA",
+    "country": "USA"
+  },
+  {
+    "name": "Valhalla Ventures",
+    "principal_name": "Mark O'Hare",
+    "principal_title": "Founder (Preqin founder)",
+    "country": "United Kingdom",
+    "description": "O'Hare family holding company for investment and philanthropic activities. Received ~$2.6B from the 2025 Preqin/BlackRock sale.",
+    "investing_sectors": "Secondaries, private credit (~70% of portfolio outside public markets)",
+    "website": "https://valhallaventures.co.uk",
+    "recent_activity": "Accumulated a 7.2% stake (~$200M) in HgCapital Trust Plc.",
+    "recent_activity_date": "2026-02-20"
+  },
+  {
+    "name": "Pontegadea Inversiones",
+    "principal_name": "Amancio Ortega",
+    "principal_title": "Founder (Zara/Inditex)",
+    "country": "Spain",
+    "description": "De facto family office of Amancio Ortega; one of the largest single-family offices in Europe by assets. Net worth context ~$130B.",
+    "recent_activity": "2025: $283M Barcelona office building (from Blackstone); 49% stake in UK's PD Ports (from Brookfield); $780M Vancouver building (from QuadReal).",
+    "recent_activity_date": "2025-11-24"
+  },
+  {
+    "name": "Mousse Partners",
+    "principal_name": "Alain Wertheimer, Gerard Wertheimer (Charles Heilbronn: family representative)",
+    "principal_title": "Owners (Chanel)",
+    "description": "Invests across public/private equity, VC, credit, real assets. Offices in New York, Beijing, Hong Kong. Heilbronn holds board seats at Coty Inc. and Ulta Beauty representing family interests."
+  },
+  {
+    "name": "DNS Capital, LLC",
+    "principal_name": "Gigi Pritzker, Michael Pucker",
+    "principal_title": "Founders",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "description": "Founded 2015 (one source: 2014), serves Pritzker/Pucker and their three adult daughters. One of ~10 family offices created during the 2000-2012 Pritzker enterprise restructuring. Direct-investment focus.",
+    "website": "https://www.dnscap.com"
+  },
+  {
+    "name": "Maelstrom",
+    "principal_name": "Arthur Hayes",
+    "principal_title": "Founder / CIO (BitMEX co-founder)",
+    "description": "Funded solely by Hayes, no outside LPs. Akshat Vaidya serves as investment head.",
+    "investing_sectors": "Crypto infrastructure, early-stage decentralization technology",
+    "recent_activity": "Raising Maelstrom Equity Fund I, targeting $250M for 4-6 crypto-infrastructure acquisitions ($40-75M per deal).",
+    "recent_activity_date": "2025-10-17",
+    "website": "https://maelstrom.fund"
+  },
+  {
+    "name": "Waycrosse, Inc.",
+    "principal_name": "Lucy MacMillan Stitzer",
+    "principal_title": "Chairman",
+    "city": "Wayzata",
+    "state": "MN",
+    "country": "USA",
+    "description": "Founded 1991 to serve the intermarried Cargill and MacMillan families (wealth from Cargill, Incorporated).",
+    "aum": "~$65B",
+    "investing_sectors": "Private equity, private credit, real assets, hedge funds, infrastructure, insurance-linked strategies"
+  },
+  {
+    "name": "Dundon Capital Partners",
+    "principal_name": "Tom Dundon",
+    "principal_title": "Chairman & Managing Partner",
+    "city": "Dallas",
+    "state": "TX",
+    "country": "USA",
+    "description": "Launched 2015. Not a fund in the institutional PE sense - no outside LPs. Distinct from Southpaw Capital Partners (a separate institutionalized sports PE vehicle Dundon co-founded).",
+    "investing_sectors": "Control venture and private equity, cash-flow oriented companies, idiosyncratic debt/equity/structured investments"
+  },
+  {
+    "name": "Gore Creek",
+    "principal_name": "Christopher B. Galvin, Michael P. Galvin",
+    "principal_title": "Founders",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "description": "Established 2005 by the sons of the Motorola founding family (grandfather Paul Galvin founded Motorola/Galvin Manufacturing Corp in 1928). Single-family mandate, no external capital.",
+    "aum": "$2.5B",
+    "investing_sectors": "Private equity, real estate, infrastructure, private credit, hedge funds; PropTech, healthcare services, AgriTech/FoodTech, SpaceTech, AI/ML, cybersecurity"
+  },
+  {
+    "name": "Duchossois Capital Management",
+    "principal_name": "Richard L. 'Dick' Duchossois",
+    "principal_title": "Founder/Chairman (David Jallits: CIO)",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "description": "Duchossois family fortune built from 1952; largest individual shareholder of Churchill Downs (acquired Arlington International Racecourse 2000)."
+  },
+  {
+    "name": "Henry Crown and Company",
+    "principal_name": "Lester Crown, Bill Crown (A. Steven Crown: Executive Chairman)",
+    "principal_title": "Directors (Henry Crown: Founder)",
+    "city": "Chicago",
+    "state": "IL",
+    "country": "USA",
+    "description": "Multi-generational: Henry -> Lester -> James Crown. Origins in Material Service Corp (coal/gravel/lime/sand), merged with General Dynamics.",
+    "investing_sectors": "Direct co-investments, private equity, real estate, infrastructure, sports franchises"
+  },
+  {
+    "name": "Adar Poonawalla Family Office",
+    "principal_name": "Adar Poonawalla (father Cyrus Poonawalla)",
+    "principal_title": "CEO, Serum Institute of India",
+    "city": "Pune",
+    "country": "India",
+    "description": "Invests mainly through Rising Sun Holdings, the Cyrus Poonawalla Group's investment holding company (incorporated 1993). Serum Institute (founded 1966) is the world's largest vaccine maker by doses.",
+    "aum": "Family wealth ~$15B (not a precise AUM figure)",
+    "recent_activity": "Invested Rs 700 crore (~$84M) in Inox Clean Energy.",
+    "recent_activity_date": "2026-07"
+  },
+  {
+    "name": "Hemendra Kothari Family Office",
+    "principal_name": "Hemendra Kothari",
+    "principal_title": "Founder, Chairman & Trustee",
+    "city": "Mumbai",
+    "country": "India",
+    "description": "4th-generation stockbroking family; great-grandfather co-founded the Bombay Stock Exchange (1875). Founded DSP Financial Consultants, later DSP Merrill Lynch. Formerly President of the Bombay Stock Exchange."
+  },
+  {
+    "name": "Latsco Family Office",
+    "principal_name": "Marianna Latsis",
+    "principal_title": "Owner",
+    "city": "Athens",
+    "country": "Greece",
+    "description": "Founded 2020, manages the Latsis family's shipping/energy fortune.",
+    "investing_sectors": "Direct investments, private equity, real assets",
+    "recent_activity": "Joint 30% acquisition of Nova ICT with EOS Capital Partners (with Motor Oil); participation in Phaistos Investment Fund.",
+    "recent_activity_date": "2026-07-21"
+  },
+  {
+    "name": "Family Office Partners",
+    "principal_name": "Benjamin T. Domingue",
+    "principal_title": "Founder & Managing Partner",
+    "city": "Lafayette",
+    "state": "LA",
+    "country": "USA",
+    "description": "Boutique multifamily office and advisory platform backed by Elevation Point. Expanding into Houston as of July 2026.",
+    "recent_activity": "Expanded into Houston with addition of Patrick Keller and Andrew C. Keller.",
+    "recent_activity_date": "2026-07-13"
+  },
+  {
+    "name": "Appaloosa Management",
+    "principal_name": "David Tepper",
+    "principal_title": "Founder",
+    "city": "Short Hills",
+    "state": "NJ",
+    "country": "USA",
+    "description": "Converted from a $13B hedge fund to a pure family office in 2019, returning outside investor capital. Manages Tepper's personal ~$15B fortune.",
+    "recent_activity": "Tripled Micron position to $428.1M in Q1 2026.",
+    "recent_activity_date": "2026-05-21"
+  },
+  {
+    "name": "Cohen Private Ventures",
+    "principal_name": "Steven A. Cohen (Andrew B. Cohen: CIO/Co-Founder)",
+    "principal_title": "Principal",
+    "city": "Stamford",
+    "state": "CT",
+    "country": "USA",
+    "description": "Distinct from Point72 (Cohen's former hedge fund, converted 2016 to a multi-family office with outside capital). Invests in direct private equity, growth equity, VC, structured securities, real estate, credit."
+  },
+  {
+    "name": "Soros Fund Management",
+    "principal_name": "George Soros",
+    "principal_title": "Founder",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "description": "Converted to a family office in 2011, returning ~$25.5B in outside capital to avoid mandatory SEC registration under Dodd-Frank."
+  },
+  {
+    "name": "Tiger Management",
+    "principal_name": "Julian Robertson (d. 2022)",
+    "principal_title": "Founder",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "description": "Converted from hedge fund to Robertson's own family office. Distinct from the 'Tiger Cubs' - former employees who founded their own separate hedge funds (Lone Pine, Maverick, etc.)."
+  },
+  {
+    "name": "Jones Family Office",
+    "principal_name": "Paul Tudor Jones II",
+    "principal_title": "Founder (Tudor Investment Corporation)",
+    "city": "Greenwich",
+    "state": "CT",
+    "country": "USA",
+    "description": "Manages wealth through direct investments and partnerships across commodities, hedge funds, private equity, real estate, infrastructure. Distinct from Tudor Investment Corporation, his hedge fund (retains outside capital)."
+  },
+  {
+    "name": "Icahn Capital LP",
+    "principal_name": "Carl Icahn",
+    "principal_title": "Principal",
+    "city": "New York",
+    "state": "NY",
+    "country": "USA",
+    "description": "Distinct from Icahn Enterprises (IEP), Icahn's publicly-traded Nasdaq holding company with public shareholders - IEP is not a family office."
+  },
+  {
+    "name": "The Dalio Family Office",
+    "principal_name": "Ray Dalio",
+    "principal_title": "Founder & CIO (Bridgewater Associates founder)",
+    "country": "USA / UAE / Singapore",
+    "description": "Established 2011 to manage Dalio's personal investments and coordinate estate/philanthropic matters following his retirement from Bridgewater. Offices in the US, Abu Dhabi Global Market, and Singapore."
+  },
+  {
+    "name": "Arrowroot Family Office, LLC",
+    "principal_linkedin": "https://www.linkedin.com/in/rob-santos-afo/",
+    "principal_phone": "+1 310-341-4774",
+    "enrichment_notes": "Aggregator sites (ContactOut/RocketReach) list 4 CONFLICTING candidate emails across different domains (arrowrootpartners.com, arrowrootadvisors.com, arrowrootfamilyoffice.com, plus a personal gmail) - could not determine the current authoritative address, left principal_email blank rather than guess. Phone/LinkedIn are single-source, lower risk."
+  },
+  {
+    "name": "Avantra Family Wealth, Inc.",
+    "principal_email": "Kim_Kenawell@avantrafamilywealth.com",
+    "principal_email_verified": false,
+    "principal_phone": "717-276-1504",
+    "principal_linkedin": "https://www.linkedin.com/in/kim-lee-kenawell-msfs-abfp-awma-cdfa-crpc-b9905431/",
+    "enrichment_notes": "Email matches firm domain from a single consistent source (firm bio page) - not deliverability-confirmed, hence principal_email_verified=False."
+  },
+  {
+    "name": "Custos Family Office, LLC",
+    "principal_linkedin": "https://www.linkedin.com/in/anthony-lopiccolo-cfa-b26aa519/",
+    "enrichment_notes": "No email/phone found in public search results this pass."
+  },
+  {
+    "name": "Tarbox Family Office, Inc.",
+    "principal_email": "Laura@Tarbox.com",
+    "principal_email_verified": false,
+    "principal_phone": "949-721-2330",
+    "enrichment_notes": "Email/phone match firm domain, corroborated by a conference speaker-bio PDF Tarbox herself likely supplied - not deliverability-confirmed."
+  },
+  {
+    "name": "Callan Family Office, LLC",
+    "principal_linkedin": "https://www.linkedin.com/in/jack-ginter-70276773/",
+    "enrichment_notes": "No email/phone found in public search results this pass."
+  },
+  {
+    "name": "Fortitude Family Office, LLC",
+    "principal_linkedin": "https://www.linkedin.com/in/matt-walkercpa-cgma/",
+    "enrichment_notes": "Email found only in masked form (m***@fortitudefo.com) - domain confirmed but address incomplete, left blank rather than guess the redacted portion."
+  },
+  {
+    "name": "Fusion Family Wealth LLC",
+    "principal_phone": "516-206-1320",
+    "enrichment_notes": "This is the firm main line, not confirmed as Blau's direct line. Personal email/phone found only in masked form (j***@fusionfamilywealth.com, (212) ***-****) - left principal_email/principal_phone for the individual blank; multiple conflicting LinkedIn URLs surfaced for the name, could not confirm which is authoritative, left principal_linkedin blank."
+  },
+  {
+    "name": "Biltmore Family Office, LLC",
+    "principal_email": "chris@biltmorefamilyoffice.com",
+    "principal_email_verified": false,
+    "principal_phone": "+1 704-560-9288",
+    "principal_linkedin": "https://www.linkedin.com/in/chris-cecil-9701b818/",
+    "enrichment_notes": "Single consistent source (firm bio page), domain-matched email - not deliverability-confirmed."
+  },
+  {
+    "name": "Allie Family Office LLC",
+    "principal_linkedin": "https://www.linkedin.com/in/bruno-ghio-1264b616b/",
+    "enrichment_notes": "Personal email explicitly noted as available only via paid aggregator subscription, not in public results - left blank rather than guess."
+  },
+  {
+    "name": "Independent Family Office, LLC",
+    "principal_phone": "518-452-8050",
+    "principal_linkedin": "https://www.linkedin.com/company/independent-family-office-llc",
+    "aum": "$618M discretionary (more precise figure found this pass)",
+    "enrichment_notes": "Phone is the firm main line. principal_linkedin here is the COMPANY page, not a personal profile - no personal profile found for Reickert."
+  },
+  {
+    "name": "Family Office Research LLC",
+    "principal_phone": "301-684-1765",
+    "principal_linkedin": "https://www.linkedin.com/in/scottmfreundcimacaiaaams/"
+  },
+  {
+    "name": "Pathstone Family Office, LLC",
+    "principal_linkedin": "https://www.linkedin.com/in/fleissig/",
+    "enrichment_notes": "Confirmed Matthew Fleissig is a CO-FOUNDER and current CEO, not just later-hired CEO - refines earlier note. No email/phone found."
+  },
+  {
+    "name": "EMFO, LLC",
+    "enrichment_notes": "Scot Hunter CRD# 1312071 (regulatory ID). Co-founded 2017 (refines earlier founding-year gap). No personal email/phone found in public results."
+  },
+  {
+    "name": "LBJ Family Wealth Advisors, Ltd.",
+    "city": "Austin",
+    "state": "TX",
+    "country": "USA",
+    "enrichment_notes": "Full address: 3800 North Lamar, Suite 200, Austin, TX 78756. No phone/email found in public results."
+  },
+  {
+    "name": "Family Office Partners",
+    "principal_linkedin": "https://www.linkedin.com/in/benjamin-thomas-domingue-cepa-12732220/",
+    "aum": "~$2.5B client assets (per Elevation Point investment coverage)",
+    "enrichment_notes": "No personal email/phone found in public results."
+  },
+  {
+    "name": "Kopp Family Office, LLC",
+    "principal_phone": "952-841-0438",
+    "principal_email": "foundation@koppfam.com",
+    "principal_email_verified": false,
+    "enrichment_notes": "IMPORTANT CAVEAT: this phone/email is for the Kopp Family FOUNDATION (a separate 501c3 philanthropic entity), not confirmed as the Family Office's own line - Lindsey Lang is President of both and they share an address (8500 Normandale Lake Blvd Suite 475, Bloomington MN), but they are legally distinct entities. Included as the best available proxy contact, not a confirmed direct line."
+  },
+  {
+    "name": "Wildcat Capital Management",
+    "investment_thesis": "Public equities and direct investments; measured, long-term positioning rather than rapid trading (e.g. the TIC Solutions exit was a multi-year hold)."
+  },
+  {
+    "name": "Duquesne Family Office",
+    "investment_thesis": "Concentrated public equity positions in technology and healthcare, consistent with Druckenmiller's macro/opportunistic investing background; willing to exit sizable positions quickly (Entegris, ON Semiconductor) when thesis changes."
+  },
+  {
+    "name": "Kemnay Advisory Services",
+    "investment_thesis": "Diversified across private equity, hedge funds, secondaries, real estate, and public equities, aimed at multigenerational capital preservation."
+  },
+  {
+    "name": "Valhalla Ventures",
+    "investment_thesis": "Patient, long-term capital deployment with no fixed exit horizon; ~70% of the portfolio allocated outside public markets, with an emphasis on secondaries and private credit."
+  },
+  {
+    "name": "Waycrosse, Inc.",
+    "investment_thesis": "Diversified institutional-style allocation across private equity, private credit, real assets, hedge funds, infrastructure, and insurance-linked strategies."
+  },
+  {
+    "name": "Gore Creek",
+    "investment_thesis": "Diversified across private equity, real estate, infrastructure, private credit, and hedge funds, with sector focus on PropTech, healthcare services, AgriTech/FoodTech, SpaceTech, AI/ML, and cybersecurity."
+  },
+  {
+    "name": "Dundon Capital Partners",
+    "investment_thesis": "Control-oriented venture and private equity investing in cash-flow-generating companies, plus idiosyncratic debt, equity, and structured investments for attractive risk-adjusted returns."
+  },
+  {
+    "name": "Maelstrom",
+    "investment_thesis": "Early-stage crypto/decentralization infrastructure investing with a long-term, patient mandate; expanding into private-equity-style acquisitions of established mid-sized crypto-ecosystem businesses."
+  },
+  {
+    "name": "Henry Crown and Company",
+    "investment_thesis": "Direct co-investments across private equity, real estate, infrastructure, and sports franchises, reflecting origins in industrial/manufacturing and real estate."
+  },
+  {
+    "name": "FAMILY CAPITAL TRUST CO., NA",
+    "investment_thesis": "Conservative, long-term investing in high-quality stocks, bonds, and master limited partnerships - traditional fiduciary/trust-company approach."
+  },
+  {
+    "name": "Appaloosa Management",
+    "investment_thesis": "Public equities with sector conviction (e.g. tripled Micron stake in Q1 2026 on semiconductor demand); continues Tepper's macro/distressed-credit-informed public markets approach from his hedge fund era."
+  },
+  {
+    "name": "Cohen Private Ventures",
+    "investment_thesis": "Direct private equity, growth equity, and venture capital, plus structured securities, real estate, and credit - long-term capital deployment distinct from Point72's external-capital hedge fund strategies."
+  },
+  {
+    "name": "The Dalio Family Office",
+    "investment_thesis": "Personal investment and estate/philanthropic coordination for Dalio following his Bridgewater retirement; specific asset allocation not documented in sources reviewed - left general pending further research."
+  },
+  {
+    "name": "Duquesne Family Office",
+    "principal_linkedin": "https://www.linkedin.com/company/duquesne-family-office-llc",
+    "corporate_linkedin": "https://www.linkedin.com/company/duquesne-family-office-llc",
+    "enrichment_notes": "Sue Meng, Partner & Managing Director, leads the private investment strategy focused on disruptive, high-growth technology and life sciences companies globally - a notable second principal beyond Druckenmiller."
+  },
+  {
+    "name": "Jaws Estates Capital",
+    "investment_thesis": "Long-duration mandate investing Sternlicht's own capital (no third-party funds raised) across real estate, venture capital, private equity, and public equities. Confirmed technology emphasis: AI/ML, Web3, enterprise software. ~22 investments made.",
+    "principal_title": "Founder & Chief Investment Officer (also Chairman/CEO of Starwood Capital Group, ~2B AUM)"
+  },
+  {
+    "name": "The Dalio Family Office",
+    "city": "Westport",
+    "state": "CT",
+    "principal_linkedin": "https://www.linkedin.com/in/raydalio",
+    "corporate_linkedin": "https://www.linkedin.com/company/dalio-family-office",
+    "aum": "~$15B personal wealth",
+    "investment_thesis": "Macro-driven allocation informed by Dalio's published views on government debt, US dollar reserve-currency risk, and historical great-power transitions - reflected in a gold-heavy tilt (reported >75% of the office's US stock-adjacent allocation in a gold-tracking ETF) alongside Treasuries and broad equity ETFs. Also runs a growing venture portfolio in AI, fintech, and data analytics. Deploys via direct co-investments, fund commitments, and real-asset holdings.",
+    "recent_activity": "Mark Baumgartner named as new Investment Chief for the family office (per LinkedIn coverage)."
+  },
+  {
+    "name": "Icahn Capital LP",
+    "investment_thesis": "Classic activist model: acquire a significant stake in an undervalued/mismanaged public company, seek board representation via 13D filings, publicly advocate for change (asset sales, capital return, restructuring). Highly concentrated and idiosyncratic portfolio by design - influence over diversification. At 88, Icahn remains the primary decision-maker after five decades of activist investing."
+  },
+  {
+    "name": "DNS Capital, LLC",
+    "corporate_linkedin": "https://www.linkedin.com/company/dns-capital",
+    "investment_thesis": "Long-term, relationship-driven investing in exceptional management teams to compound capital over time ('Does Not Suck' is the literal DNS acronym meaning). Targets middle-market companies with $10-50M EBITDA and a permanent capital base; 30+ investments spanning early-stage through mature companies with 50M+ EBITDA."
+  },
+  {
+    "name": "Pontegadea Inversiones",
+    "investment_thesis": "All-cash acquisitions (no leverage) of premium commercial real estate, held in perpetuity for long-term cash flow rather than a 5-10 year exit horizon. Started 2001 using Inditex IPO proceeds.",
+    "investing_sectors": "Premium commercial real estate in major global capitals (London, New York, Miami, Toronto, Madrid, Paris)"
+  },
+  {
+    "name": "Kemnay Advisory Services",
+    "city": "New York",
+    "state": "NY",
+    "corporate_linkedin": "https://www.linkedin.com/company/kemnay-advisory-services-inc",
+    "enrichment_notes": "Address refined: 45 Rockefeller Plaza, New York, NY 10020. NOTE: a LinkedIn profile for an 'Alan Parker' at 'Enterprise Marketing Blueprint LLC' surfaced in search but is explicitly a DIFFERENT unrelated person - not used, to avoid a wrong-person contact error."
+  },
+  {
+    "name": "Hillspire",
+    "corporate_linkedin": "https://www.linkedin.com/company/hillspire-llc",
+    "investment_thesis": "Backs entrepreneurs leveraging breakthroughs in computing, AI, life sciences, and energy sustainability.",
+    "investing_sectors": "AI, defense technology, biotechnology, climate technology",
+    "recent_activity": "22 private AI company investments since 2019, combined funding rounds exceeding $5B; portfolio includes Anthropic and SandboxAQ.",
+    "recent_activity_date": "2026-01-21"
+  },
+  {
+    "name": "Bezos Expeditions",
+    "city": "Mercer Island",
+    "state": "WA",
+    "country": "USA",
+    "investment_thesis": "Founder-investor philosophy prioritizing transformative companies pursuing large market opportunities; willing to hold for very long time horizons. Favors direct founder relationships over intermediary fund managers.",
+    "investing_sectors": "Biotech, fintech, AI/robotics, space/aerospace, media, real estate, logistics, healthcare, education"
+  },
+  {
+    "name": "Thiel Capital",
+    "city": "Los Angeles",
+    "state": "CA",
+    "country": "USA",
+    "corporate_linkedin": "https://www.linkedin.com/company/thiel-capital-llc",
+    "investment_thesis": "Backs startups that escape competition by building monopolies through unique insight, technology, and defensible market positions - prioritizes foundational differentiation over incremental improvement.",
+    "investing_sectors": "Artificial intelligence, defense/national security technology, biotechnology, financial infrastructure",
+    "enrichment_notes": "Also has a Miami, FL presence per sources - Los Angeles used as primary city."
+  },
+  {
+    "name": "Soros Fund Management",
+    "corporate_linkedin": "https://www.linkedin.com/company/soros-fund-management",
+    "aum": "~$28B net assets",
+    "investment_thesis": "Reflexivity-theory-informed: investor biases and market fundamentals form feedback loops affecting prices. Unconstrained global mandate across equities, credit, fixed income, macro, and private equity; takes large concentrated positions when conviction is high. Distinctively, the firm's stated primary mandate is to serve as the permanent capital base funding the Open Society Foundations.",
+    "recent_activity": "Recent portfolio emphasis on high-growth technology and scaled industrial exposure (positions in Amazon, NVIDIA, Alphabet per 13F)."
+  },
+  {
+    "name": "West Family Investments, Inc.",
+    "investment_thesis": "Combines rigorous financial/market analysis with a network-driven approach to identify innovative, sector-leading companies. Notable healthcare innovation focus via the $100M West Health Investment Fund (risk capital for cost-lowering healthcare technology). West Partners (the PE arm) makes $10-100M control investments in private companies plus commercial real estate.",
+    "investing_sectors": "Healthcare innovation, private equity control investments, commercial real estate",
+    "enrichment_notes": "A LinkedIn profile for a 'Gary West' at 'Gary West Investments LLC' surfaced but the entity name doesn't clearly match West Family Investments, Inc. - not used as principal_linkedin to avoid a wrong-person/wrong-entity error."
+  },
+  {
+    "name": "Mousse Partners",
+    "principal_name": "Charles Heilbronn (founder; half-brother to owners Alain and Gerard Wertheimer)",
+    "principal_title": "Founder (1991)",
+    "principal_linkedin": "https://www.linkedin.com/in/charles-heilbronn-27984515b/",
+    "investment_thesis": "Deep focus on the consumer sector - DTC brands, e-commerce, luxury goods, lifestyle companies, and consumer-experience technology - leveraging the Wertheimer family's brand-building and luxury-retail expertise. Long-term strategy across public/private markets, alternative investments, and collaborative partnerships with external managers.",
+    "investing_sectors": "Consumer/DTC brands, e-commerce, luxury goods, lifestyle, consumer technology",
+    "enrichment_notes": "CORRECTION to earlier note: Heilbronn is not just a family representative - he is the firm's FOUNDER (1991) and the Wertheimer brothers' half-brother."
+  },
+  {
+    "name": "Cohen Private Ventures",
+    "corporate_linkedin": "https://www.linkedin.com/company/cohen-private-ventures",
+    "investment_thesis": "Direct private equity, growth equity and venture capital, structured securities and specialized credit, real estate, and special situations/rescue financings - across sectors, geographies, and company lifecycle stages.",
+    "enrichment_notes": "Multiple different 'Andrew Cohen' LinkedIn profiles surfaced (M. Cohen Capital, Greenoaks Capital, World Innovation Lab) - clearly different people sharing a common name. Could not confirm which, if any, is the Cohen Private Ventures CIO - left principal_linkedin blank rather than guess."
+  },
+  {
+    "name": "Jones Family Office",
+    "investment_thesis": "Global macro investing across equities, fixed income, currencies, and commodities based on macroeconomic analysis and market timing. Allocates across commodities, hedge funds, private equity, real estate, and infrastructure; geographic reach spans North America, Africa, Europe, and Asia; stages from seed through middle market.",
+    "description": "Paul Tudor Jones also founded the Robin Hood Foundation (anti-poverty, NYC, B+ distributed in grants - a pioneer of 'venture philanthropy') and co-founded JUST Capital."
+  },
+  {
+    "name": "Latsco Family Office",
+    "investing_sectors": "Shipping, energy, infrastructure, real estate, fintech - plus construction, concessions, technology, security/cybersecurity, entertainment, consulting",
+    "aum": "Latsis family net worth ~$2.2B (Forbes 2024) - not a precise firm AUM figure",
+    "enrichment_notes": "Offices in Athens, Geneva, and London. In 2019 Marianna Latsis and siblings formally divided the broader family holdings; she took the helm of the shipping interests under Latsco specifically."
+  },
+  {
+    "name": "Duchossois Capital Management",
+    "corporate_linkedin": "https://www.linkedin.com/company/duchossois-capital-management",
+    "investment_thesis": "Applies industry knowledge, operational expertise, and a permanent capital base built over 10 decades as a family business. Four strategy areas: Private Capital, Real Estate, Funds, Public Securities (buyouts, recapitalizations, add-ons, growth equity). Targets companies with $50M-$1B revenue, $10-200M EBITDA, $15-50M typical check size.",
+    "investing_sectors": "Technology, healthcare, engineered industrial products, building products, transportation/logistics/rail leasing, value-added distribution, consumer durables, security"
+  },
+  {
+    "name": "Henry Crown and Company",
+    "principal_name": "James S. Crown (d. June 25, 2023) - Chairman/CEO/President; current leadership post-2023 not confirmed in sources reviewed",
+    "investing_sectors": "Sports franchises (stakes in Chicago Bulls, New York Yankees), leisure (Aspen Skiing Company), banking (JPMorgan Chase stake), real estate (Rockefeller Center stake), industrials (General Dynamics stake + board seat)",
+    "enrichment_notes": "IMPORTANT: James Crown, listed elsewhere as a current active leader, died June 25, 2023. Current (2026) leadership of the firm was NOT confirmed in sources reviewed this session - this is an honest gap, not filled with a guess. Do not present James Crown as current active CEO without flagging this."
+  },
+  {
+    "name": "Geller Family Office Services, LLC",
+    "corporate_linkedin": "https://www.linkedin.com/company/geller-advisors",
+    "aum": "$9.6B as of Dec 31, 2023 ($5.9B AUM + $3.7B assets under advisement), via subsidiary Geller Advisors LLC",
+    "description": "Geller & Company provides strategic/operational CFO consulting, financial reporting, tax advisory, investment management, and integrated wealth management. Its multi-family-office arm is Geller Advisors LLC."
+  },
+  {
+    "name": "BOSTON FAMILY OFFICE LLC",
+    "investment_thesis": "Growth-oriented equities benefiting from favorable macro trends, strong product/service franchises, and good management, balanced with fixed income and other asset classes. Each portfolio manager follows a specific economic sector; diversification maintained via sector-weight and position-size limits.",
+    "investing_sectors": "Growth equities across sectors, plus real estate partnerships, hedge funds, private equity, venture capital as appropriate",
+    "aum": "$1.87B across ~335 individually tailored accounts"
+  },
+  {
+    "name": "Custos Family Office, LLC",
+    "investment_thesis": "Risk management across the client's entire balance sheet using client-specific profiles for asset allocation; implementation unconstrained by traditional asset classes (ETFs, institutional mutual funds, SMAs, private investments, hedging options). 100% partner-owned with no outside shareholders - explicitly framed as enabling full client-centricity."
+  },
+  {
+    "name": "Biltmore Family Office, LLC",
+    "investment_thesis": "Proprietary 'family balance sheet' framework integrating investments, wealth transfer/tax planning, family governance/education, and reporting. Goal: grow family assets over inflation, spending, taxes, liabilities, and generational expansion. Founding partners are fee-paying clients themselves, investing alongside the families they serve.",
+    "aum": "$3.5B (per FinTrx)"
+  },
+  {
+    "name": "Fortitude Family Office, LLC",
+    "investment_thesis": "Goals-based investment management: growth, risk management, tax efficiency, and volatility management via systematic rebalancing, risk-tolerance assessment, and tax-loss harvesting. Fully-integrated team spanning investment advisory, wealth management, tax, accounting, philanthropy, and business operations."
+  },
+  {
+    "name": "EMFO, LLC",
+    "investment_thesis": "Manages/recommends both publicly traded securities and non-publicly-traded assets including private equity, on discretionary and non-discretionary bases. Minimum annual fee $250,000 for family office services.",
+    "aum": "$500M discretionary AUM (as of July 2024)",
+    "enrichment_notes": "IMPORTANT STATUS CHANGE: Corient Private Wealth LLC acquired EMFO effective July 31, 2024. This record may no longer reflect an independently operating entity as of 2026 - flagged as a material currency gap, not silently presented as still-independent."
+  },
+  {
+    "name": "CVA Family Office, LLC",
+    "investment_thesis": "Holistic, IPS-driven approach emphasizing strategic asset allocation, tax efficiency, and capital preservation for entrepreneurs/business owners, with particular focus on liquidity-event planning. Integrates investment banking and exit-planning services (via affiliated Class VI Partners) alongside wealth management.",
+    "website": "https://classvifamilyoffice.com"
+  },
+  {
+    "name": "Hemendra Kothari Family Office",
+    "principal_linkedin": "https://in.linkedin.com/in/hemendra-kothari-302b3731a",
+    "investment_thesis": "Value investing prioritizing companies with strong fundamentals and experienced management; emphasis on diversification and long-term growth via fundamental analysis. Founded DSP Financial Consultants (1975), partnered with Merrill Lynch (1995), founded DSP Mutual Fund (2008, initially with BlackRock, later bought out BlackRock's stake).",
+    "enrichment_notes": "Family group has evolved from fully family-run to professional day-to-day management; Aditi Kothari Desai (relation to Hemendra not fully confirmed) is Chairperson of DSP Asset Managers."
+  },
+  {
+    "name": "Adar Poonawalla Family Office",
+    "investing_sectors": "Consumer, life sciences, financial services (commercial/agri/SME/mortgage finance, insurance - rural/semi-urban focus), clean/renewable energy, real estate",
+    "recent_activity": "Planning a $1B capital raise to expand NBFC (non-bank financial company) operations (announced 2025-05-29). Acquired ~175,000 sq ft of office space in Pune's Hinjewadi IT hub for Rs 395 crore.",
+    "recent_activity_date": "2026-07-02"
+  },
+  {
+    "name": "Allie Family Office LLC",
+    "investment_thesis": "Long-term wealth preservation with strategic asset allocation and jurisdiction diversification (to mitigate country risk) - relevant for Latin American families managing cross-border wealth. Diversifies into direct assets, ETFs, and specialized funds; customized benchmarks and periodic reporting per client."
+  },
+  {
+    "name": "Arrowroot Family Office, LLC",
+    "investment_thesis": "Fiduciary-only approach: no proprietary products, open architecture, conflict-free ('only incentive is client outcome'). Data-driven, focused on multigenerational wealth retention; integrated team of advisors, accountants, and lawyers."
+  },
+  {
+    "name": "Pathstone Family Office, LLC",
+    "investment_thesis": "Open-architecture, customized implementation via a global manager network. Active alternatives program (PE, VC, real estate, hedge funds) with rigorous quantitative/qualitative manager due diligence. Considers the family's total wealth picture - concentrated stock, real estate, business interests, philanthropy."
+  },
+  {
+    "name": "Tarbox Family Office, Inc.",
+    "investment_thesis": "Evolved from active stock-picking to an evidence-based, tax-efficient, asset-class investing approach using indexed core exposures, controlled diversification, and tax-aware management, with room for alternatives/interval funds when appropriate. Fee-only since 1990 (no commissions/trails/referral fees)."
+  },
+  {
+    "name": "Callan Family Office, LLC",
+    "investment_thesis": "Core-satellite approach blending low-cost passive investment with high-conviction active management and private capital, optimized for after-tax/net-of-fee results. Leverages parent-adjacent Callan LLC's 45+ years of institutional research and ~2,000 annual manager due-diligence meetings.",
+    "aum": "$10B+ (crossed this threshold per company announcement)"
+  },
+  {
+    "name": "Family Management Corp",
+    "investment_thesis": "Believes no single investment style or asset class suits all assets - diversifies among styles/classes as well as individual securities, sometimes adding outside managers to enhance diversification. Plans built around each client's individually assessed risk/reward profile."
+  },
+  {
+    "name": "Family Office Research LLC",
+    "investment_thesis": "Fundamental analysis with a long-term, risk-management-focused approach; individualized portfolio supervision. Deliberately grows via a carefully chosen client roster rather than rapid scaling.",
+    "aum": "$580.9M"
+  },
+  {
+    "name": "Fusion Family Wealth LLC",
+    "investment_thesis": "Behavioral-finance-driven: the firm's central belief is that counterproductive investor behavior (reacting to markets/short-term events), not market timing itself, is the biggest cause of failed wealth preservation. Fiduciary, open-architecture, no proprietary products - steadfast adherence to a goals-based plan through market volatility."
+  },
+  {
+    "name": "Independent Family Office, LLC",
+    "investment_thesis": "Customized programs using fundamental and technical analysis; toolkit includes options/derivatives, short sales, margin borrowing, and hedge fund/PE allocations when appropriate. Primary focus is non-investment family office functions (estate planning support, day-to-day administration) alongside investment oversight.",
+    "aum": "$760M (per FinTrx - supersedes earlier $618M figure, likely a more recent data point)"
+  },
+  {
+    "name": "Geller Family Office Services, LLC",
+    "investment_thesis": "Fund-of-funds approach - diversifies by allocating across multiple external fund managers rather than picking direct securities. Multidisciplinary (investments, tax, planning, financial management) serving clients with substantial illiquid/thinly-traded holdings (hedge funds, private equity)."
+  },
+  {
+    "name": "Kopp Family Office, LLC",
+    "investment_thesis": "Institutional approach focused on directly-managed public equities and ETFs plus opportunistic allocations (not external fund commitments); consolidated reporting, tax planning, governance support. Activity confined to North America."
+  },
+  {
+    "name": "LBJ Family Wealth Advisors, Ltd.",
+    "investment_thesis": "Holistic stewardship integrating investment strategy with family values/long-term planning. Relies on index ETFs/mutual funds and other money managers rather than individual securities for the core portfolio; may add PE/real estate/hard-asset limited partnerships for volatility reduction and inflation protection. Seeks low management fees."
+  },
+  {
+    "name": "Capitol Family Office, Inc.",
+    "investment_thesis": "Discretionary asset management centered on pooled public equity vehicles (not bespoke single-stock portfolios). Not an active ESG investor; focused on long-term relationships with a select client group and intergenerational wealth preservation.",
+    "aum": "$136.5M",
+    "enrichment_notes": "Very small team - only 2 employees, both investment professionals."
+  },
+  {
+    "name": "Tiger Management",
+    "investment_thesis": "Transitioned from hedge fund to family office in March 2000, retaining ~$760M of Robertson's personal wealth. Initially centered on seeding 'Tiger Cub' funds launched by former employees; current portfolio (per 13F) concentrated in two consumer-discretionary holdings (Coupang, Maplebear/Instacart).",
+    "enrichment_notes": "Julian Robertson died August 2022. Current (2026) day-to-day leadership/management of the family office post-Robertson was NOT confirmed in sources reviewed - honest gap, not filled with a guess."
+  },
+  {
+    "name": "Latsco Family Office",
+    "investment_thesis": "Direct strategic investments and joint ventures (e.g. with EOS Capital Partners, Motor Oil) leveraging the family's shipping/energy heritage, expanding into infrastructure, real estate, fintech, and broader Greek-economy opportunities."
+  },
+  {
+    "name": "Family Office Partners",
+    "investment_thesis": "Integrated advisory model combining investment management with advanced/estate planning and family office services for entrepreneurs, business owners, and UHNW families - not a pure asset-allocation shop."
+  },
+  {
+    "name": "Adar Poonawalla Family Office",
+    "investment_thesis": "Diversified beyond the family's core vaccine/pharma business into financial services (NBFC lending), renewable energy, and real estate - strategically positioned around India's expanding financial-services market and clean-energy transition."
+  }
+]

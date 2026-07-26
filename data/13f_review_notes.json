@@ -1,0 +1,567 @@
+[
+  {
+    "name": "BARCLAYS GLOBAL INVESTORS NA /CA/",
+    "cik": "0000913414",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Institutional asset-management arm of Barclays Bank (acquired by BlackRock 2009). Established public knowledge, not fresh-verified this session."
+  },
+  {
+    "name": "COMMERCE BANK N A/MO",
+    "cik": "0001009076",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Regional bank; 13F reflects trust-department assets across many clients. Established public knowledge."
+  },
+  {
+    "name": "FENIMORE ASSET MANAGEMENT INC",
+    "cik": "0000884566",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Manages the public FAM Funds mutual funds. Established public knowledge, moderate confidence, not fresh-verified."
+  },
+  {
+    "name": "FIRST HAWAIIAN BANK",
+    "cik": "0000764106",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Bank. Established public knowledge."
+  },
+  {
+    "name": "FIRST MERCHANTS CORP",
+    "cik": "0000712534",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "NASDAQ-listed bank holding company (FRME). Established public knowledge."
+  },
+  {
+    "name": "FRANKLIN RESOURCES INC",
+    "cik": "0000038777",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Franklin Templeton, NYSE-listed global asset manager (BEN). Established public knowledge."
+  },
+  {
+    "name": "SCHWAB CHARLES INVESTMENT MANAGEMENT INC",
+    "cik": "0000884546",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Charles Schwab's public fund arm. Established public knowledge."
+  },
+  {
+    "name": "TEACHERS ADVISORS INC",
+    "cik": "0000939222",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "TIAA-affiliated, manages pension assets for millions of educators. Established public knowledge."
+  },
+  {
+    "name": "TIAA CREF INVESTMENT MANAGEMENT LLC",
+    "cik": "0000887793",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "TIAA pension/retirement manager. Established public knowledge."
+  },
+  {
+    "name": "Union Bankshares Corp",
+    "cik": "0000883948",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "NYSE-listed bank holding company (AUB). Established public knowledge."
+  },
+  {
+    "name": "WELLINGTON MANAGEMENT CO LLP",
+    "cik": "0000902219",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "One of the world's largest institutional asset managers (~$1T+ AUM). Established public knowledge."
+  },
+  {
+    "name": "Ancora Advisors, LLC",
+    "cik": "0001446114",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Cleveland-based activist-investor RIA, broad client base. Established public knowledge, moderate confidence."
+  },
+  {
+    "name": "Dorsey & Whitney Trust CO LLC",
+    "cik": "0001384042",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Trust subsidiary of a national law firm, serves many clients. Established public knowledge."
+  },
+  {
+    "name": "Atlantic Family Wealth, LLC",
+    "cik": "0002012511",
+    "verdict": "unclear",
+    "firm_type": null,
+    "reason": "No founder/family identity found in search. Investment management & financial advisory firm, Coral Gables FL, founded 2004. Name confusable with unrelated 'Atlantic Wealth Partners'/'Atlantic Wealth Management Group'. Insufficient evidence either way.",
+    "sources": [
+      "https://atlanticfamilywealth.com/about/"
+    ]
+  },
+  {
+    "name": "Allie Family Office LLC",
+    "cik": "0001908612",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Founded 2019 by Bruno Ghio (sole owner), serves multiple Latin American/Peruvian HNW families, $1.15B AUM. Third-party source explicitly labels it 'Miami Multi Family Office'.",
+    "sources": [
+      "https://altss.com/profile/alli-family-office-llc"
+    ],
+    "verification_note": "CAVEAT: multi-family classification rests only on a secondary aggregator label (e.g. Altss), not a primary quote from the firm itself. Not independently confirmed - same source class that was WRONG for Family Manage LLC (Altss said single-family, firm site said multi-family). Lower confidence than other MFO records in this file. Recommend a direct-site check before treating as equally solid."
+  },
+  {
+    "name": "American Family Investments, Inc.",
+    "cik": "0002029723",
+    "verdict": "unclear",
+    "firm_type": null,
+    "reason": "Search returned only portfolio-tracker data (fintel/gurufocus), no identity statement. Do not confuse with unrelated 'American Family Ventures' (insurance company VC arm). Insufficient evidence.",
+    "sources": []
+  },
+  {
+    "name": "Arrowroot Family Office, LLC",
+    "cik": "0002017744",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Founded 2013 by Rob Santos (ex-investment banker, not family money), rebranded from 'Vitreous Partners' 2017, explicitly serves 'affluent families, entrepreneurs, individuals, trusts, estates, charitable organizations' - plural client base, RIA model.",
+    "sources": [
+      "https://arrowrootfamilyoffice.com/about/"
+    ]
+  },
+  {
+    "name": "Avantra Family Wealth, Inc.",
+    "cik": "0001774744",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Self-described 'concierge-style multifamily office', 990 client accounts, founder Kim Kenawell. Explicit self-declaration as multi-family.",
+    "sources": [
+      "https://www.avantrafamilywealth.com/"
+    ]
+  },
+  {
+    "name": "BOSTON FAMILY OFFICE LLC",
+    "cik": "0001039807",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Founded 1996 by 6 unrelated principals (Putnam, Richardson, Weld, Macklem, Beal, Bell), $1.87B AUM, ownership distributed (no single family controls >30%), serves 'additional client capital' beyond founders. Explicitly documented as multi-family.",
+    "sources": [
+      "https://www.bosfam.com/history/"
+    ]
+  },
+  {
+    "name": "BRADY FAMILY WEALTH, LLC",
+    "cik": "0001971456",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "General-practice RIA founded 2021 by father-son Tom & Andrew Brady (ex-Wells Fargo Advisors). Serves individuals, HNW families, pension/profit-sharing plans, trusts, foundations, corporations - broad public client base, not a defined family or small family set. 'Family' in name is the founders' surname used as branding, matches the exclusion pattern our criteria calls out.",
+    "sources": [
+      "https://bradyfamilywealth.com/about-us/"
+    ]
+  },
+  {
+    "name": "Biltmore Family Office, LLC",
+    "cik": "0001731123",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Founded 2008 by Chris Cecil (great-grandson of George Vanderbilt) originally for Vanderbilt/Biltmore Estate wealth, but began serving outside clients in 2013 - now a 'collaborative family office group' for 'high-net-worth individuals, families, and their related entities'. Current state is multi-family, not single, despite single-family origin.",
+    "sources": [
+      "https://www.biltmorefamilyoffice.com/our-history/"
+    ]
+  },
+  {
+    "name": "COLLECTIVE FAMILY OFFICE LLC",
+    "cik": "0001845066",
+    "verdict": "unclear",
+    "firm_type": null,
+    "reason": "Founded 2019 by David S. Sivel, York PA. Description too thin to determine single vs multi - no explicit exclusivity or multi-client statement found. Would need ADV brochure review.",
+    "sources": []
+  },
+  {
+    "name": "CVA Family Office, LLC",
+    "cik": "0001802084",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Now operates as 'Class VI Family Office, LLC'. Founded 2016 by 4 unrelated co-founders (Blackburn, Younger, Tolson, Tinoco) as an RIA. Focuses on HNW entrepreneurs/business owners generally, not one family.",
+    "sources": [
+      "https://www.classvipartners.com/our-team/matt-blackburn/"
+    ]
+  },
+  {
+    "name": "Callan Family Office, LLC",
+    "cik": "0001938970",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Founded 2022 by Jack Ginter + 3 other named founding partners, grew to 23 partners who bought stakes. 'Callan' is a LICENSED TRADEMARK from an unrelated institutional consulting firm (Callan LLC), not a founder surname. $10.2B AUM, serves 'ultra-high net worth clients, family foundations, and endowments' - textbook example of 'family office' as marketing branding, not a real family name.",
+    "sources": [
+      "https://riabiz.com/a/2024/4/9/an-abbot-downing-breakaway-but-not-exactly-callan-family-office-hits-5-billion-of-aum-after-just-two-years-using-a-creative-callan-brand-deal-and-a-partnership-model"
+    ]
+  },
+  {
+    "name": "Capitol Family Office, Inc.",
+    "cik": "0001863768",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Beaverton, OR, established 2011. Third-party source explicitly labels it a multi-family office. Contacts Mark and Erica Nortman.",
+    "sources": [
+      "https://www.retirementplanning.net/retirement-planners/oregon/beaverton/capitol-family-office-inc/2013080"
+    ],
+    "verification_note": "CAVEAT: multi-family classification rests only on a secondary aggregator label (e.g. Altss), not a primary quote from the firm itself. Not independently confirmed - same source class that was WRONG for Family Manage LLC (Altss said single-family, firm site said multi-family). Lower confidence than other MFO records in this file. Recommend a direct-site check before treating as equally solid."
+  },
+  {
+    "name": "Custos Family Office, LLC",
+    "cik": "0001904423",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Austin TX, founded 2018, partner-owned (Tony Lopiccolo, Mitchell Herr), explicitly labeled multi-family office, serves 'affluent families' (plural), ~$500-730M AUM across 6 advisors.",
+    "sources": [
+      "https://custosfo.com/"
+    ],
+    "verification_note": "CAVEAT: multi-family classification rests only on a secondary aggregator label (e.g. Altss), not a primary quote from the firm itself. Not independently confirmed - same source class that was WRONG for Family Manage LLC (Altss said single-family, firm site said multi-family). Lower confidence than other MFO records in this file. Recommend a direct-site check before treating as equally solid."
+  },
+  {
+    "name": "EMFO, LLC",
+    "cik": "0001859434",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Full legal name is 'Emerald Multi-Family Office, LLC' - multi-family is in the entity's own registered name. Cofounded by Scot Hunter and Allan Budelman. Also explains the joint-13F-filing finding from earlier (shared platform serving multiple clients/managers).",
+    "sources": [
+      "https://emeraldfamilyoffice.com/new-project"
+    ]
+  },
+  {
+    "name": "FAMILY CAPITAL TRUST CO., NA",
+    "cik": "0001123320",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "NH-chartered trust company, Peabody MA, founded 1999. Manages family trusts/multi-generation wealth 'for a select clientele' (plural) in a 'family office style'. Chartered trust company serving multiple clients, not one family.",
+    "sources": [
+      "https://famcaptrust.com/"
+    ]
+  },
+  {
+    "name": "FAMILY WEALTH PARTNERS, LLC",
+    "cik": "0002016217",
+    "verdict": "unclear",
+    "firm_type": null,
+    "reason": "Medford NJ, $131M AUM RIA. No founder or single-vs-multi evidence found; generic name with several same-named entities elsewhere causing ambiguity.",
+    "sources": []
+  },
+  {
+    "name": "FRG Family Wealth Advisors LLC",
+    "cik": "0001893327",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Founded 2009 by unrelated cofounders Benjamin Johnson and Jimmy Wu, Bellevue WA. General RIA practice, 'family wealth' used as branding, not evidence of family-office structure - same pattern as Brady Family Wealth.",
+    "sources": [
+      "https://www.frgwealth.com/"
+    ]
+  },
+  {
+    "name": "Family Capital Management, Inc.",
+    "cik": "0001964344",
+    "verdict": "unclear",
+    "firm_type": null,
+    "reason": "No definitive match found - multiple unrelated 'Family Capital'/'Family Management' entities exist (famcap.com, familymanage.com, DFO Management) causing name-collision risk. Insufficient evidence.",
+    "sources": []
+  },
+  {
+    "name": "Family Management Corp",
+    "cik": "0001539947",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "SEC-registered name is actually 'Family Manage LLC', NYC, $5.3B AUM, SEC-registered since 1990. CONFLICTING EVIDENCE CAUGHT: Altss database labels it 'New York Single Family Office', but the firm's OWN site (familymanage.com) explicitly says 'tailor custom plans for each client family' and serves 'high net worth individuals, families, and not-for-profit organizations' - plural, multi-client. Own-source statement preferred over secondary aggregator label when they conflict.",
+    "sources": [
+      "https://www.familymanage.com/our-firm/",
+      "https://altss.com/profile/family-manage-llc"
+    ]
+  },
+  {
+    "name": "Family Office Research LLC",
+    "cik": "0002041267",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Bethesda MD, founded 2005 by Scott M. Freund (owned by Scott and Emily Freund). Serves external 'high-net-worth families and foundations' (plural), not just the Freunds' own money.",
+    "sources": [
+      "https://www.familyofficeresearch.com/"
+    ]
+  },
+  {
+    "name": "Family Wealth Group, LLC",
+    "cik": "0001944877",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "General retail wealth management RIA, 5 offices across KY/WV, founded 2007 by Kevin Metzler, changed ownership 2022. Serves 'individuals and families' broadly - general public retail practice, not a family office.",
+    "sources": []
+  },
+  {
+    "name": "Forthright Family Wealth Advisory LLC",
+    "cik": "0002008648",
+    "verdict": "unclear",
+    "firm_type": null,
+    "reason": "Houston, founded 2019 by Neal Carlson. No client-base breadth evidence found either way.",
+    "sources": []
+  },
+  {
+    "name": "Fortis Advisors, LLC",
+    "cik": "0001697478",
+    "verdict": "unclear",
+    "firm_type": null,
+    "reason": "Wayne PA, $584M AUM, SEC-registered 2014. Name-collision risk: a DIFFERENT entity 'Fortis Management Group LLC' (Boston, Jay Goldfarb, acquired by Emigrant Bancorp 2026) also exists in the family office space. Could not confirm which is CIK 1697478 or its client base.",
+    "sources": []
+  },
+  {
+    "name": "Fortitude Family Office, LLC",
+    "cik": "0001950506",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Scottsdale AZ, founded 2021 by Matt Walker (CPA). Explicitly described as multi-family office, 'advises a select roster of' HNW families (plural), $640M+ AUM, serves 'individuals, families, trusts, charitable organizations, and other clients'.",
+    "sources": [
+      "https://fortitudefo.com/"
+    ]
+  },
+  {
+    "name": "Fusion Family Wealth LLC",
+    "cik": "0001696209",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Woodbury NY, founded 2013 by Jonathan Blau (ex-UBS). Explicitly stated to operate 'as a multi-family office serving multiple high-net-worth families and institutions'. ~$1.5B AUM.",
+    "sources": [
+      "https://www.fusionfamilywealth.com/firm-history"
+    ]
+  },
+  {
+    "name": "Geller Family Office Services, LLC",
+    "cik": "0001354739",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Founded 1984 by Martin J. Geller, evolved into Geller & Company. Recently acquired by Corient - acquisition headline itself: 'Corient Acquires Multi-Family Office Business of Geller' ($10.4B AUM).",
+    "sources": [
+      "https://www.businesswire.com/news/home/20250115069200/en/Corient-Acquires-Multi-Family-Office-Business-of-Geller-Expanding-U.S.-Wealth-Management-Presence-and-Deepening-Family-Office-Capabilities"
+    ]
+  },
+  {
+    "name": "HALL LAURIE J TRUSTEE",
+    "cik": "0001388382",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Individual filing as trustee, address 111 Huntington Ave Boston MA matches State Street Corp HQ - almost certainly an institutional nominee/trustee filing, not a real family office. Holdings values are tiny ($67K-$143K across filings) - far too small to represent genuine family-office-scale wealth management.",
+    "sources": []
+  },
+  {
+    "name": "Horizon Family Wealth, Inc.",
+    "cik": "0001910660",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Chicago, SEC-registered 2021. Explicitly serves 'individual/family AND institutional clients', described as capital allocator for 'individuals, small businesses, and institutional entities' - breadth goes beyond even a defined small family set, general-practice RIA.",
+    "sources": [
+      "https://www.horizonfamilywealth.com/who-we-serve"
+    ]
+  },
+  {
+    "name": "INTREPID FAMILY OFFICE LLC",
+    "cik": "0001596197",
+    "verdict": "unclear",
+    "firm_type": null,
+    "reason": "Greenwich CT (also Sarasota FL), founded 2000, only 1-5 employees. No founder or client-base breadth evidence found. Small size and long low-profile history are consistent with a genuine SFO but not confirmed - worth a deeper look later, not enough to qualify now.",
+    "sources": []
+  },
+  {
+    "name": "Independent Family Office, LLC",
+    "cik": "0001756485",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Albany NY, founded 2005 by W. Michael Reickert after leading the 'family office practice' at Ayco Company (a larger advisory firm) - an advisory-services career background, not a private family's own vehicle. Altss explicitly labels it 'Albany Multi Family Office'.",
+    "sources": [
+      "https://ifollc.com/"
+    ],
+    "verification_note": "CAVEAT: multi-family classification rests only on a secondary aggregator label (e.g. Altss), not a primary quote from the firm itself. Not independently confirmed - same source class that was WRONG for Family Manage LLC (Altss said single-family, firm site said multi-family). Lower confidence than other MFO records in this file. Recommend a direct-site check before treating as equally solid."
+  },
+  {
+    "name": "Kopp Family Office, LLC",
+    "cik": "0001683689",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Bloomington MN, established 2016 by LeRoy 'Lee' Kopp after decades running Kopp Investment Advisors (a prior general RIA). Altss labels it 'Bloomington Multi Family Office'; no contradicting evidence found. Lee Kopp died 2020, related Kopp Family Foundation is a real philanthropic entity, current president Lindsey Lang.",
+    "sources": [
+      "https://altss.com/profile/kopp-family-office-llc"
+    ],
+    "verification_note": "CAVEAT: multi-family classification rests only on a secondary aggregator label (e.g. Altss), not a primary quote from the firm itself. Not independently confirmed - same source class that was WRONG for Family Manage LLC (Altss said single-family, firm site said multi-family). Lower confidence than other MFO records in this file. Recommend a direct-site check before treating as equally solid."
+  },
+  {
+    "name": "LBJ Family Wealth Advisors, Ltd.",
+    "cik": "0001601622",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Austin TX, founded 2003 by Luci Baines Johnson (daughter of President Lyndon B. Johnson). CHECKED FIRM'S OWN SITE before assuming single-family from the famous name: explicitly states 'multi-generational, family-owned, family wealth management firm serving clients' (plural) and 'family-to-family not business-to-consumer' - serves external client families, not just the Johnson family. Notable enrichment detail regardless of type.",
+    "sources": [
+      "https://lbjadvisors.com/about/"
+    ]
+  },
+  {
+    "name": "MOSAIC FAMILY WEALTH PARTNERS, LLC",
+    "cik": "0001965241",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "St. Louis MO, founded 2015 by Scott Highmark (unrelated to any specific family name). Recently joined Focus Financial Partners, a major independent-wealth-manager roll-up/aggregator - confirms general wealth-management business, not a private family vehicle.",
+    "sources": [
+      "https://finance.yahoo.com/news/mosaic-family-wealth-leading-independent-181500286.html"
+    ]
+  },
+  {
+    "name": "Morton Brown Family Wealth, LLC",
+    "cik": "0001909851",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Lehigh Valley PA, founded 2018 by two unrelated co-founders (Dennis Morton, Kathryn M. Brown - combined-surname naming like a law firm). Serves clients nationwide - general RIA practice.",
+    "sources": [
+      "https://mortonbrownfw.com/team/"
+    ]
+  },
+  {
+    "name": "Noble Family Wealth, LLC",
+    "cik": "0001976065",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "REVERSED from earlier 'qualifies' verdict on re-check - the original classification was based on a thin, unsourced characterization ('boutique... limited number of families') that does not hold up. Fuller data: Clearwater FL, SEC-registered ~2021, 426 accounts (67 HNW clients), 'serves retail investors and high net worth investors' broadly. This is a general retail wealth-management RIA practice, not a boutique multi-family office - fails our own MFO test (small, DEFINED family set, not broadly public-marketed). Caught during final integrity check when the record was found to have an empty evidence field despite a 'qualifies' verdict - re-researching to fill the gap surfaced the original error.",
+    "sources": [
+      "https://money.usnews.com/financial-advisors/firm/noble-family-wealth-315152"
+    ]
+  },
+  {
+    "name": "Omnia Family Wealth, LLC",
+    "cik": "0001696136",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Aventura FL, founded 2015 by 3 co-founders including one unrelated partner (Steven Wagner, son Michael Wagner, and non-family Ivan Hernandez). General wealth advisory practice, 'family' used as values-branding.",
+    "sources": [
+      "https://omniawealth.com/about-us/"
+    ]
+  },
+  {
+    "name": "Pathstone Family Office, LLC",
+    "cik": "0001511137",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Fort Lee NJ, founded 2010 by Steve Braverman and Allan Zachariah (unrelated ex-Harris myCFO executives). Explicitly 'partner-owned multi-family office' serving 'ultra-high net worth families, single family offices, foundations, and endowments'.",
+    "sources": [
+      "https://www.prnewswire.com/news-releases/pathstone-family-office-launches-independent-family-and-employee-owned-multi-family-office-95319759.html"
+    ]
+  },
+  {
+    "name": "QTR Family Wealth, LLC",
+    "cik": "0002067954",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Lake Mary FL, founded by brothers Wes and Chad Hunter. Serves external 'multi-generational entrepreneurs' broadly (per own PR headline) - general RIA business despite family-founder structure.",
+    "sources": [
+      "https://finance.yahoo.com/news/qtr-family-wealth-launches-independent-141800823.html"
+    ]
+  },
+  {
+    "name": "RAINIER FAMILY WEALTH INC",
+    "cik": "0002073596",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Tacoma WA, founded 2023, 3-advisor team, ~$331M. Explicitly serves 'individual and high-net-worth clients, as well as charitable and corporate clients' - breadth beyond family-office scope.",
+    "sources": []
+  },
+  {
+    "name": "RPg Family Wealth Advisory, LLC",
+    "cik": "0001569884",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Burlington MA, established 2011 as a SUBSIDIARY of Risk Paradigm Group Holdings, LLC - a corporate subsidiary structure, not a private family's own vehicle.",
+    "sources": []
+  },
+  {
+    "name": "Redwood Family Wealth LLC",
+    "cik": "0002116118",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Addison TX, SEC-registered 2025. Described as capital allocator serving 'individual, family and institutional clients' - general RIA. NOTE: distinct from unrelated 'Redwood Capital (Jim Davis Family Office)' in Hanover, a genuine SFO tied to an Allegis Group co-founder - not in our candidate list under this CIK, worth a separate discovery lookup later.",
+    "sources": []
+  },
+  {
+    "name": "Safe Harbor Family Capital, LLC",
+    "cik": "0002065810",
+    "verdict": "unclear",
+    "firm_type": null,
+    "reason": "Chapel Hill NC, established 2006. No specific founder or single-vs-multi evidence found (managed by an executive team per available sources).",
+    "sources": []
+  },
+  {
+    "name": "Stenger Family Office, LLC",
+    "cik": "0002056106",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "Naperville IL, founded by Nick Stenger (ex-Morgan Stanley). Explicitly serves 'over 1,200 families across the United States' since 1981 - large-scale general financial advisory practice, 'family' is founder's surname branding.",
+    "sources": [
+      "https://www.stengerfamilyoffice.com/"
+    ]
+  },
+  {
+    "name": "Stokes Family Office, LLC",
+    "cik": "0001802278",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "New Orleans, founded by David Stokes (spun off from a 1987 predecessor RIA in 2019), '100% family owned' with sons Douglas/Gregory Stokes as Managing Partners. But offers 'Wealth Management, Retirement Plan Consulting, AND Family Office Services' as one of several client-facing service lines - reads as a family-run RIA practice serving external clients, not one family's private vehicle. Lower confidence.",
+    "sources": [
+      "https://stokesfamilyoffice.com/about-us/"
+    ]
+  },
+  {
+    "name": "Strategic Family Wealth Counselors, L.L.C.",
+    "cik": "0001729755",
+    "verdict": "unclear",
+    "firm_type": null,
+    "reason": "Fairfield NJ, founded 1998. No clear founder identified, generic RIA description, no exclusivity evidence either way.",
+    "sources": []
+  },
+  {
+    "name": "TTF/FA",
+    "cik": "0001134813",
+    "verdict": "reject",
+    "firm_type": null,
+    "reason": "SEC-registered name is actually 'STEVENS CAPITAL MANAGEMENT LP', Radnor PA - an institutional quantitative/systematic trading manager (LP structure). 'TTF/FA' was a garbled fund-series label from the raw search, not a real family-office name - keyword match was noise.",
+    "sources": []
+  },
+  {
+    "name": "Tarbox Family Office, Inc.",
+    "cik": "0001599603",
+    "verdict": "qualifies",
+    "firm_type": "multi_family_office",
+    "reason": "Newport Beach CA, founded 1985 by Laura Tarbox. Explicitly self-described: 'the multi-family office is uniquely positioned with just 100+ client families and over $1 billion under management' - direct, explicit multi-family self-declaration.",
+    "sources": [
+      "https://tarbox.com/who-we-are/"
+    ]
+  },
+  {
+    "name": "VPR Management LLC",
+    "cik": "0001894203",
+    "verdict": "unclear",
+    "firm_type": null,
+    "reason": "Houston, 'serves institutional investors and high-net-worth individuals' (broad). Operates out of offices managed by a DIFFERENT company, 'Greenway Family Office Services LLC' - shared-platform signal similar to EMFO's joint-filing pattern. C/O Daniel Sledge Herbert. Insufficient clean evidence for single-family classification.",
+    "sources": []
+  },
+  {
+    "name": "Duquesne Family Office LLC",
+    "cik": "0001536411",
+    "verdict": "qualifies",
+    "firm_type": "single_family_office",
+    "reason": "New York NY, Stanley Druckenmiller's SFO. otherIncludedManagersCount=0, $3.4B 13F total (plausible scale), continuously active 2013-2026. Widely and specifically press-named as Druckenmiller's single-family office (CNBC, multiple outlets). Verified live: real, dated, attributable 13F holdings (e.g. Natera Inc top holding as of 2026-05-15).",
+    "sources": [
+      "https://www.cnbc.com/2026/02/26/billionaire-family-office-investments.html"
+    ]
+  },
+  {
+    "name": "West Family Investments, Inc.",
+    "cik": "0001568303",
+    "verdict": "qualifies",
+    "firm_type": "single_family_office",
+    "reason": "Carlsbad CA, principals Gary and Mary West. PRIMARY SOURCE: SEC Schedule 13D/13G filing states directly: 'The Adviser is a family office exempt from registration under the Family Office Exemption.' Continuously active 2013-2026 (97 filings).",
+    "sources": [
+      "https://www.sec.gov/Archives/edgar/data/1568303/0001104659-21-108534.txt"
+    ]
+  }
+]

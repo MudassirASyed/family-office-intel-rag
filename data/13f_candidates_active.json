@@ -1,0 +1,822 @@
+[
+  {
+    "name": "ATLANTIC FAMILY WEALTH, LLC",
+    "cik": "0002012511",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Coral Gables, FL.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002012511&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-08",
+    "total_filings_on_record": 7
+  },
+  {
+    "name": "Allie Family Office LLC",
+    "cik": "0001908612",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Miami, FL.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001908612&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-14",
+    "total_filings_on_record": 21
+  },
+  {
+    "name": "American Family Investments, Inc.",
+    "cik": "0002029723",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family investments'. Location: Madison, WI.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002029723&type=13F-HR",
+    "matched_keywords": [
+      "family investments"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-14",
+    "total_filings_on_record": 10
+  },
+  {
+    "name": "Ancora Advisors, LLC",
+    "cik": "0001446114",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Cleveland, OH.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001446114&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-15",
+    "total_filings_on_record": 316
+  },
+  {
+    "name": "Arrowroot Family Office, LLC",
+    "cik": "0002017744",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Marina Del Rey, CA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002017744&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-15",
+    "total_filings_on_record": 14
+  },
+  {
+    "name": "Avantra Family Wealth, Inc.",
+    "cik": "0001774744",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Mechanicsburg, PA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001774744&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-04-22",
+    "total_filings_on_record": 7
+  },
+  {
+    "name": "BARCLAYS GLOBAL INVESTORS NA /CA/",
+    "cik": "0000913414",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: San Francisco, CA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000913414&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-27",
+    "total_filings_on_record": 1439
+  },
+  {
+    "name": "BOSTON FAMILY OFFICE LLC",
+    "cik": "0001039807",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Boston, MA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001039807&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-13",
+    "total_filings_on_record": 118
+  },
+  {
+    "name": "BRADY FAMILY WEALTH, LLC",
+    "cik": "0001971456",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Saint Louis, MO.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001971456&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-13",
+    "total_filings_on_record": 17
+  },
+  {
+    "name": "Biltmore Family Office, LLC",
+    "cik": "0001731123",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Charlotte, NC.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001731123&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-11",
+    "total_filings_on_record": 36
+  },
+  {
+    "name": "COLLECTIVE FAMILY OFFICE LLC",
+    "cik": "0001845066",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: York, PA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001845066&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-23",
+    "total_filings_on_record": 26
+  },
+  {
+    "name": "COMMERCE BANK N A/MO",
+    "cik": "0001009076",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family investments'. Location: Kansas City, MO.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001009076&type=13F-HR",
+    "matched_keywords": [
+      "family investments"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-11",
+    "total_filings_on_record": 118
+  },
+  {
+    "name": "CVA Family Office, LLC",
+    "cik": "0001802084",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Denver, CO.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001802084&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-04-29",
+    "total_filings_on_record": 28
+  },
+  {
+    "name": "Callan Family Office, LLC",
+    "cik": "0001938970",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Radnor, PA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001938970&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-13",
+    "total_filings_on_record": 16
+  },
+  {
+    "name": "Capitol Family Office, Inc.",
+    "cik": "0001863768",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Beaverton, OR.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001863768&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-04-15",
+    "total_filings_on_record": 21
+  },
+  {
+    "name": "Custos Family Office, LLC",
+    "cik": "0001904423",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Littleton, CO.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001904423&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-02-17",
+    "total_filings_on_record": 19
+  },
+  {
+    "name": "Dorsey & Whitney Trust CO LLC",
+    "cik": "0001384042",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Sioux Falls, SD.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001384042&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-14",
+    "total_filings_on_record": 77
+  },
+  {
+    "name": "Duquesne Family Office LLC",
+    "cik": "0001536411",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: New York, NY.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001536411&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-15",
+    "total_filings_on_record": 70
+  },
+  {
+    "name": "EMFO, LLC",
+    "cik": "0001859434",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Weston, FL.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001859434&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2024-08-05",
+    "total_filings_on_record": 15
+  },
+  {
+    "name": "FAMILY CAPITAL TRUST CO., NA",
+    "cik": "0001123320",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family capital'. Location: Boston, MA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001123320&type=13F-HR",
+    "matched_keywords": [
+      "family capital"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-04-29",
+    "total_filings_on_record": 94
+  },
+  {
+    "name": "FAMILY WEALTH PARTNERS, LLC",
+    "cik": "0002016217",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Matthews, NC.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002016217&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-10",
+    "total_filings_on_record": 14
+  },
+  {
+    "name": "FENIMORE ASSET MANAGEMENT INC",
+    "cik": "0000884566",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: Cobleskill, NY.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000884566&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-14",
+    "total_filings_on_record": 205
+  },
+  {
+    "name": "FIRST HAWAIIAN BANK",
+    "cik": "0000764106",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family partners'. Location: Honolulu, HI.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000764106&type=13F-HR",
+    "matched_keywords": [
+      "family partners"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-13",
+    "total_filings_on_record": 169
+  },
+  {
+    "name": "FIRST MERCHANTS CORP  (FRME, FRMEP)",
+    "cik": "0000712534",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family partners'. Location: Muncie, IN.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000712534&type=13F-HR",
+    "matched_keywords": [
+      "family partners"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-22",
+    "total_filings_on_record": 1000
+  },
+  {
+    "name": "FRANKLIN RESOURCES INC  (BEN)",
+    "cik": "0000038777",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: San Mateo, CA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000038777&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-24",
+    "total_filings_on_record": 1001
+  },
+  {
+    "name": "FRG Family Wealth Advisors LLC",
+    "cik": "0001893327",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Bellevue, WA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001893327&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-04-24",
+    "total_filings_on_record": 44
+  },
+  {
+    "name": "Family Capital Management, Inc.",
+    "cik": "0001964344",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family capital'. Location: Grand Rapids, MI.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001964344&type=13F-HR",
+    "matched_keywords": [
+      "family capital"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-04-23",
+    "total_filings_on_record": 16
+  },
+  {
+    "name": "Family Management Corp",
+    "cik": "0001539947",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family management'. Location: New York, NY.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001539947&type=13F-HR",
+    "matched_keywords": [
+      "family management"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-15",
+    "total_filings_on_record": 61
+  },
+  {
+    "name": "Family Office Research LLC",
+    "cik": "0002041267",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Bethesda, MD.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002041267&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-13",
+    "total_filings_on_record": 6
+  },
+  {
+    "name": "Family Wealth Group, LLC",
+    "cik": "0001944877",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Lexington, KY.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001944877&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-04-21",
+    "total_filings_on_record": 16
+  },
+  {
+    "name": "Forthright Family Wealth Advisory LLC",
+    "cik": "0002008648",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Houston, TX.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002008648&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-16",
+    "total_filings_on_record": 11
+  },
+  {
+    "name": "Fortis Advisors, LLC",
+    "cik": "0001697478",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: King of Prussia, PA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001697478&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-22",
+    "total_filings_on_record": 47
+  },
+  {
+    "name": "Fortitude Family Office, LLC",
+    "cik": "0001950506",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Scottsdale, AZ.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001950506&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-20",
+    "total_filings_on_record": 12
+  },
+  {
+    "name": "Fusion Family Wealth LLC",
+    "cik": "0001696209",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Woodbury, NY.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001696209&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-05",
+    "total_filings_on_record": 58
+  },
+  {
+    "name": "Geller Family Office Services, LLC",
+    "cik": "0001354739",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: New York, NY.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001354739&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2025-02-14",
+    "total_filings_on_record": 80
+  },
+  {
+    "name": "HALL LAURIE J TRUSTEE",
+    "cik": "0001388382",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: .",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001388382&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-09",
+    "total_filings_on_record": 78
+  },
+  {
+    "name": "Horizon Family Wealth, Inc.",
+    "cik": "0001910660",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Chicago, IL.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001910660&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-08",
+    "total_filings_on_record": 21
+  },
+  {
+    "name": "INTREPID FAMILY OFFICE LLC",
+    "cik": "0001596197",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Sarasota, FL.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001596197&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-15",
+    "total_filings_on_record": 14
+  },
+  {
+    "name": "Independent Family Office, LLC",
+    "cik": "0001756485",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Albany, NY.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001756485&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-15",
+    "total_filings_on_record": 29
+  },
+  {
+    "name": "Kopp Family Office, LLC",
+    "cik": "0001683689",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Bloomington, MN.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001683689&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-09",
+    "total_filings_on_record": 45
+  },
+  {
+    "name": "LBJ Family Wealth Advisors, Ltd.",
+    "cik": "0001601622",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Austin, TX.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001601622&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-14",
+    "total_filings_on_record": 53
+  },
+  {
+    "name": "MOSAIC FAMILY WEALTH PARTNERS, LLC",
+    "cik": "0001965241",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: St. Louis, MO.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001965241&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-04-30",
+    "total_filings_on_record": 16
+  },
+  {
+    "name": "Morton Brown Family Wealth, LLC",
+    "cik": "0001909851",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Allentown, PA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001909851&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-21",
+    "total_filings_on_record": 21
+  },
+  {
+    "name": "Noble Family Wealth, LLC",
+    "cik": "0001976065",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Clearwater, FL.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001976065&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-06",
+    "total_filings_on_record": 17
+  },
+  {
+    "name": "Omnia Family Wealth, LLC",
+    "cik": "0001696136",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Aventura, FL.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001696136&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-09",
+    "total_filings_on_record": 44
+  },
+  {
+    "name": "Pathstone Family Office, LLC",
+    "cik": "0001511137",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Englewood, NJ.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001511137&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-11",
+    "total_filings_on_record": 81
+  },
+  {
+    "name": "QTR Family Wealth, LLC",
+    "cik": "0002067954",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Lake Mary, FL.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002067954&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-04-16",
+    "total_filings_on_record": 6
+  },
+  {
+    "name": "RAINIER FAMILY WEALTH INC",
+    "cik": "0002073596",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Tacoma, WA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002073596&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-15",
+    "total_filings_on_record": 9
+  },
+  {
+    "name": "RPg Family Wealth Advisory, LLC",
+    "cik": "0001569884",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Burlington, MA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001569884&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-14",
+    "total_filings_on_record": 44
+  },
+  {
+    "name": "Redwood Family Wealth LLC",
+    "cik": "0002116118",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Addison, TX.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002116118&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-14",
+    "total_filings_on_record": 2
+  },
+  {
+    "name": "SCHWAB CHARLES INVESTMENT MANAGEMENT INC",
+    "cik": "0000884546",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: San Francisco, CA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000884546&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-15",
+    "total_filings_on_record": 226
+  },
+  {
+    "name": "Safe Harbor Family Capital, LLC",
+    "cik": "0002065810",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family capital'. Location: Chapel Hill, NC.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002065810&type=13F-HR",
+    "matched_keywords": [
+      "family capital"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-12",
+    "total_filings_on_record": 2
+  },
+  {
+    "name": "Stenger Family Office, LLC",
+    "cik": "0002056106",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Naperville, IL.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002056106&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-13",
+    "total_filings_on_record": 6
+  },
+  {
+    "name": "Stokes Family Office, LLC",
+    "cik": "0001802278",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: New Orleans, LA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001802278&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-12",
+    "total_filings_on_record": 28
+  },
+  {
+    "name": "Strategic Family Wealth Counselors, L.L.C.",
+    "cik": "0001729755",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family wealth'. Location: Fairfield, NJ.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001729755&type=13F-HR",
+    "matched_keywords": [
+      "family wealth"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-11",
+    "total_filings_on_record": 31
+  },
+  {
+    "name": "TEACHERS ADVISORS INC",
+    "cik": "0000939222",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: New York, NY.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000939222&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-04-30",
+    "total_filings_on_record": 462
+  },
+  {
+    "name": "TIAA CREF INVESTMENT MANAGEMENT LLC",
+    "cik": "0000887793",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: New York, NY.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000887793&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-04-30",
+    "total_filings_on_record": 368
+  },
+  {
+    "name": "TTF/FA",
+    "cik": "0001134813",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: Hamilton Bermuda.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001134813&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-11",
+    "total_filings_on_record": 139
+  },
+  {
+    "name": "Tarbox Family Office, Inc.",
+    "cik": "0001599603",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Newport Beach, CA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001599603&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-09",
+    "total_filings_on_record": 53
+  },
+  {
+    "name": "Union Bankshares Corp  (AUB, AUB-PA)",
+    "cik": "0000883948",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: Richmond, VA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000883948&type=13F-HR",
+    "matched_keywords": [
+      "family holdings",
+      "family investments"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-23",
+    "total_filings_on_record": 1003
+  },
+  {
+    "name": "VPR Management LLC",
+    "cik": "0001894203",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family office'. Location: Houston, TX.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001894203&type=13F-HR",
+    "matched_keywords": [
+      "family office"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-15",
+    "total_filings_on_record": 40
+  },
+  {
+    "name": "WELLINGTON MANAGEMENT CO LLP",
+    "cik": "0000902219",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family holdings'. Location: Boston, MA.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000902219&type=13F-HR",
+    "matched_keywords": [
+      "family holdings"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-07-08",
+    "total_filings_on_record": 1003
+  },
+  {
+    "name": "West Family Investments, Inc.",
+    "cik": "0001568303",
+    "source": "sec_13f",
+    "notes": "13F-HR filer, matched keyword 'family investments'. Location: Evanston, IL.",
+    "source_url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001568303&type=13F-HR",
+    "matched_keywords": [
+      "family investments"
+    ],
+    "is_active": true,
+    "most_recent_filing_date": "2026-05-07",
+    "total_filings_on_record": 97
+  }
+]

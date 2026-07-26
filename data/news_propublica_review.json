@@ -1,0 +1,300 @@
+{
+  "new_candidates": [
+    {
+      "name": "Valhalla Ventures",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "O'Hare (Mark O'Hare, Preqin founder)",
+      "reason": "UK-based. Press: 'the O'Hare family's holding company managing the family's investment and philanthropic activities'. Sold Preqin to BlackRock (completed ~March 2025) for ~$2.6B to the family. Actively deployed: ~$200M / 7.2% stake in HgCapital Trust Plc, ~70% of portfolio allocated outside public markets.",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2026-02-20/billionaire-preqin-seller-s-family-office-builds-buyout-firm-bet",
+        "https://valhallaventures.co.uk/"
+      ],
+      "verification_scope_note": "UK entity - our SEC 13F/EDGAR and ProPublica 990 tools only cover US filers, so this record is press-verified only, not cross-checked against a primary regulatory filing the way the US SFOs in this dataset are. State this limitation honestly if this record makes the final 50 - do not present it with the same verification depth as e.g. Duquesne or West Family Investments."
+    },
+    {
+      "name": "Cheng Huang Family Trust",
+      "verdict": "reject",
+      "firm_type": null,
+      "reason": "Not a family office. It's Cheng Chi Fung's (CTO of Credo Technology Group, Nasdaq: CRDO) personal estate-planning trust ('U/T/A DTD 12/22/2003') holding his own employer's stock for insider compensation purposes, disclosed via Form 4/Rule 10b5-1 plan filings - not a diversified investment management entity. No evidence of investment thesis, staff, or holdings beyond one company's insider shares.",
+      "sources": [
+        "https://www.stocktitan.net/sec-filings/CRDO/form-4-credo-technology-group-holding-ltd-insider-trading-activity-82711c7a2af8.html"
+      ]
+    },
+    {
+      "name": "Mark Mitchell / U.S. Medical Management exit",
+      "verdict": "unclear",
+      "firm_type": null,
+      "reason": "Sold majority stake in U.S. Medical Management to Centene (2013-2014, ~$325M enterprise value). Could not confirm a specific named family office entity tied to him - one search hit shows a 'Mark Mitchell' as co-founder of Lorient Capital (a PE/M&A advisory firm), but could not confirm this is the same person or that it's a family office rather than a fee-for-service advisory firm. Not enough to qualify or reject cleanly - needs a dedicated follow-up search, not force-classified.",
+      "sources": []
+    },
+    {
+      "name": "Declaration Partners (David Rubenstein)",
+      "verdict": "unclear",
+      "firm_type": null,
+      "reason": "David Rubenstein (Carlyle Group co-founder) genuinely has a family office - confirmed real and billionaire-scale. BUT the specific named entity 'Declaration Partners' is described as investing 'on behalf of family offices AND like-minded institutional investors' (plural, external capital) - reads as an investment platform Rubenstein's office anchors, not a pure single-family vehicle. A separate press mention of a 'Rubenstein Single Family Office' suggests the actual private entity may have a different name than 'Declaration Partners'. Needs disambiguation between the platform brand and the actual private family office entity before this can be classified - do not record 'Declaration Partners' as single_family_office without resolving this.",
+      "sources": [
+        "https://www.caproasia.com/2025/10/18/private-equity-group-carlyle-group-co-founder-billionaire-david-rubenstein-with-4-5-billion-fortune-family-office-backed-2-2-billion-investment-firm-declaration-partners-spin-out-private-equity-seco/",
+        "https://familyofficehub.io/blog/rubenstein-single-family-office-acquires-apartments-for-53-0m/"
+      ]
+    },
+    {
+      "name": "Pontegadea Inversiones",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Ortega (Amancio Ortega, Zara/Inditex founder)",
+      "reason": "Spain-based. Described as 'the primary investment vehicle and de facto family office of Amancio Ortega... one of the largest single family offices in Europe by assets'. Very well documented, active 2025 dealflow: $283M Barcelona office building (from Blackstone), 49% stake in UK's PD Ports (from Brookfield), $780M Vancouver building (from QuadReal). Net worth context ~$130B.",
+      "sources": [
+        "https://www.caproasia.com/2026/04/26/spain-fashion-zara-founder-billionaire-amancio-ortega-age-90-with-130-billion-fortune-family-office-property-group-pontegadea-bought-more-than-1-5-billion-properties-in-north-america-europe/"
+      ],
+      "verification_scope_note": "Foreign entity, same caveat as Valhalla Ventures - press-verified only, no US SEC/ProPublica cross-check possible."
+    },
+    {
+      "name": "Mousse Partners",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Wertheimer (Alain and Gerard Wertheimer, Chanel owners)",
+      "reason": "'Serves as a family office to manage the wealth of Alain and Gerard Wertheimer' (brothers, same lineage). Invests across public/private equity, VC, credit, real assets; offices in NY, Beijing, Hong Kong. PARTIAL US corroboration found: 'Mousseluxe Sarl' (CIK 1638286) and Charles Heilbronn (a known Wertheimer family representative) appear in real SEC insider filings (Forms 3/4) tied to Coty Inc. and Ulta Beauty board seats - confirms US market presence even though Mousse Partners itself isn't a direct 13F/ADV filer under that name.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Mousse_Partners"
+      ],
+      "verification_scope_note": "Primarily press/Wikipedia-verified with partial SEC-adjacent corroboration (affiliated entity/individual insider filings), not a direct primary-source filing for Mousse Partners itself."
+    },
+    {
+      "name": "DNS Capital, LLC",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Pritzker/Pucker (Gigi Pritzker, Michael Pucker, and their three adult daughters)",
+      "reason": "Chicago, founded 2015 (one source says 2014). Multiply corroborated: own site (dnscap.com) states it is 'Family Office of Michael Pucker & Gigi Pritzker'; ACG Insights/Middle Market Growth business journalism profile; Altss. One of ~10 family offices created during the 2000-2012 restructuring of the broader Pritzker enterprise - this specific entity serves one nuclear family unit (Pritzker/Pucker + 3 daughters), not the whole extended Pritzker dynasty.",
+      "sources": [
+        "https://www.dnscap.com/about/",
+        "https://middlemarketgrowth.org/cover-dns-capital-family-values/"
+      ],
+      "verification_scope_note": "No SEC 13F/ADV filing found under this name - consistent with genuine small/private SFO behavior, not a red flag. Press/own-site verified, not SEC-primary verified."
+    },
+    {
+      "name": "Maelstrom",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Hayes (Arthur Hayes, BitMEX co-founder)",
+      "reason": "Explicitly funded solely by Hayes himself with no outside LPs (limited partners) - directly confirms single-individual capital structure, not a pooled multi-investor fund. Bloomberg headline itself: 'Arthur Hayes' Family Office Seeks $250 Million for Buyout Fund'. Real recent activity: raising Maelstrom Equity Fund I ($250M target, $40-75M per deal, crypto-infrastructure acquisitions).",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2025-10-17/arthur-hayes-family-office-seeks-250-million-for-buyout-fund",
+        "https://maelstrom.fund/about/"
+      ],
+      "verification_scope_note": "Press-verified (Bloomberg + own site), not SEC-primary verified."
+    },
+    {
+      "name": "Waycrosse, Inc.",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Cargill-MacMillan (Cargill Inc. founding families, intermarried since early 1900s)",
+      "reason": "Wayzata MN, founded 1991. Directly and explicitly described as 'the single family office for the Cargill-MacMillan families of Minnesota' across multiple independent sources (PipelineRoad, Altss, Forbes profile, Wikipedia entries for Cargill MacMillan Sr./Jr.). ~$65B AUM. Two surnames (Cargill, MacMillan) reflects one intermarried family lineage, not two unrelated families being served as separate clients - consistent with SEC family office rule's lineage definition. Chairman: Lucy MacMillan Stitzer.",
+      "sources": [
+        "https://pipelineroad.com/directory/cargill-macmillan",
+        "https://www.forbes.com/profile/cargill-macmillan-1/"
+      ],
+      "verification_scope_note": "No SEC 13F/ADV filing found under this name despite large AUM - likely invests via external managers rather than filing directly. Press/multi-source verified, not SEC-primary verified."
+    },
+    {
+      "name": "Dundon Capital Partners",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Dundon (Tom Dundon)",
+      "reason": "Dallas TX, founded 2015 by Tom Dundon (Chairman/Managing Partner). Direct explicit statement: 'not a fund in the institutional PE sense - it does not raise capital from outside LPs, and it is a family office.' Note: distinct from 'Southpaw Capital Partners', a SEPARATE institutionalized sports PE vehicle Dundon co-founded with outside co-chair Zubin Mehta - do not conflate the two.",
+      "sources": [
+        "https://mergr.com/investor/dundon-capital-partners"
+      ],
+      "verification_scope_note": "Press/database verified (Mergr, PEI), not SEC-primary verified."
+    },
+    {
+      "name": "Buss Sports Capital",
+      "verdict": "reject",
+      "firm_type": null,
+      "reason": "Joey and Jesse Buss (LA Lakers ownership family) launched this in Sept 2025 following the $10B Lakers sale. REJECTED despite the real liquidity event: every source describes it as a 'sports investment/acquisition business' or 'sports acquisition firm', never as a family office or broader wealth-management vehicle. No evidence it manages the Buss family's general wealth versus being a narrowly-scoped sports-deals venture. Does not meet our own inclusion bar without that evidence.",
+      "sources": []
+    },
+    {
+      "name": "Gore Creek",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Galvin (Christopher B. Galvin, ex-Motorola CEO, and brother Michael P. Galvin)",
+      "reason": "Chicago, established 2005 by Christopher and Michael Galvin (sons of the Motorola founding family - Motorola founded by their grandfather Paul Galvin in 1928). Explicit direct statement: 'preserves a single-family mandate without external capital.' $2.5B AUM.",
+      "sources": [
+        "https://altss.com/profile/gore-creek-galvin-family-office"
+      ],
+      "verification_scope_note": "Press/database verified, not SEC-primary verified."
+    },
+    {
+      "name": "Duchossois Capital Management",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Duchossois (Richard L. \"Dick\" Duchossois)",
+      "reason": "Chicago, family fortune built from 1952 (Duchossois Group; largest individual shareholder of Churchill Downs). Own site language: mission is 'providing best-in-class service and advice to DCM principals' (family-only framing). CIO's outside advisory role at a DIFFERENT family's trust company is explicitly described as a personal/independent capacity, not DCM's own business - implies DCM itself does not serve external client families. Not as explicit as Gore Creek's statement - medium confidence.",
+      "sources": [
+        "https://dcmllc.com/team/"
+      ],
+      "verification_scope_note": "Own-site evidence is suggestive but not a fully explicit single-family exclusivity statement - worth a second check before treating as high-confidence."
+    },
+    {
+      "name": "Shamrock Holdings",
+      "verdict": "unclear",
+      "firm_type": null,
+      "reason": "Founded 1978 as Roy E. Disney's family investment company. CONFLICTING EVIDENCE: multiple databases (Preqin, Altss) still label it 'single family office of the Roy E. Disney Family' and state 'the Disney family remains its sole investor' - but the SAME search results describe it as having 'evolved into an institutionally backed firm with a diverse group of investors, including endowments, foundations, and sovereign wealth and pension funds', operating today as 'Shamrock Capital' with $6.5B AUM investing across multi-fund PE strategies. Same pattern as Biltmore Family Office: single-family origin, but current structure appears to have taken on outside capital. Genuinely contradictory sources - not force-classified either way.",
+      "sources": []
+    },
+    {
+      "name": "Henry Crown and Company",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Crown (Henry Crown, descendants Lester, James, Steven, Susan Crown)",
+      "reason": "Chicago. Direct explicit statement: 'Henry Crown and Company (HCC) is the family office for the Crown family.' Multi-generational (Henry -> Lester -> James Crown), currently directed by Lester and Bill Crown. Deploys capital via direct co-investments, PE, real estate, infrastructure, sports franchises. Multiply corroborated: BusinessWire, Altss ('Chicago Single Family Office'), Forbes family profile, multiple Wikipedia entries for family members.",
+      "sources": [
+        "https://www.businesswire.com/news/home/20250123832869/en/Henry-Crown-and-Company-Announces-New-Board-and-Leadership",
+        "https://altss.com/profile/cc-industries-inc-crown-family-office"
+      ],
+      "verification_scope_note": "Press/database verified, not SEC-primary verified."
+    },
+    {
+      "name": "Adar Poonawalla Family Office",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Poonawalla (Cyrus and Adar Poonawalla)",
+      "reason": "India (Pune). Manages the wealth of Adar Poonawalla, CEO of Serum Institute of India (world's largest vaccine maker). Invests mainly through 'Rising Sun Holdings', the Cyrus Poonawalla Group's investment holding company (incorporated 1993) - these are the SAME family's vehicle, not two separate entities (a second raw candidate 'Rising Sun Holdings' from the same discovery run refers to this). Family wealth ~$15B. Multiply corroborated: familyofficehub.io, PipelineRoad, Wikipedia.",
+      "sources": [
+        "https://pipelineroad.com/directory/poonawalla-family"
+      ],
+      "verification_scope_note": "Foreign entity (India) - press/database verified, not SEC-primary verified."
+    },
+    {
+      "name": "Hemendra Kothari Family Office",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Kothari (Hemendra Kothari, 4th-gen stockbroking family, founder of DSP Merrill Lynch)",
+      "reason": "Mumbai. Explicitly labeled 'single-family office' by SWFI and Altss ('Mumbai Single Family Office'). Manages multi-generational wealth, estate planning, philanthropy for the Kothari family.",
+      "sources": [
+        "https://altss.com/profile/hemendra-kothari-family-office"
+      ],
+      "verification_scope_note": "CAVEAT: 'Kothari' is a common Indian surname with multiple distinct wealthy families with their own family offices (e.g. a separate 'Dr. Kulin Kothari Family Office' also exists, unrelated). The original NewsAPI article that surfaced 'Kothari Family Office' as a name did not clearly confirm which specific Kothari family it referred to - this record is my best-evidenced match, not a certain one. Foreign entity, press/database verified only."
+    },
+    {
+      "name": "Latsco Family Office",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Latsis (owned by Marianna Latsis, Latsco Shipping)",
+      "reason": "Athens, Greece. Founded 2020, manages the private wealth of the Latsis family (shipping/energy fortune). Explicitly labeled 'Athens Single Family Office' by Altss. Recent verified activity: joint 30% acquisition of Nova ICT with EOS Capital Partners (July 2026), participation in Phaistos Investment Fund.",
+      "sources": [
+        "https://en.protothema.gr/2026/07/21/latsco-family-office-and-eos-capital-acquire-30-stake-in-nova-ict-in-partnership-with-motor-oil/",
+        "https://altss.com/profile/latsco-family-office"
+      ],
+      "verification_scope_note": "Foreign entity (Greece) - press/database verified, not SEC-primary verified."
+    },
+    {
+      "name": "Family Office Partners",
+      "verdict": "qualifies",
+      "firm_type": "multi_family_office",
+      "reason": "Lafayette, LA, founder/managing partner Benjamin T. Domingue. Explicit self-label: 'boutique multifamily office and independent advisory platform backed by Elevation Point' (a larger advisory-firm aggregator). Serves 'entrepreneurs, private business owners, family offices, and ultra-high-net-worth families' - broad, plural client base.",
+      "sources": [
+        "https://www.globenewswire.com/news-release/2026/07/13/3326294/0/en/Family-Office-Partners-Expands-into-Houston-with-Addition-of-Patrick-Keller-and-Andrew-C-Keller.html"
+      ]
+    },
+    {
+      "name": "Manor Park Ventures",
+      "verdict": "reject",
+      "firm_type": null,
+      "reason": "Vertically integrated real estate investment and development firm, 'backed by proprietary family capital' - but MPV itself is an operating real estate development company (2,000+ multifamily units, $200M+ transactions), not a wealth-management/family office entity. Same pattern as Reyes Holdings: family-funded operating business, not a family office.",
+      "sources": []
+    },
+    {
+      "name": "Appaloosa Management",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Tepper (David Tepper)",
+      "reason": "Short Hills, NJ. Converted from a $13B hedge fund to a pure family office in 2019 - returned essentially all outside investor capital (exiting investors received 90% back Jan 2020, rest by Apr 2020), now manages Tepper's personal ~$15B fortune exclusively. CNBC headline directly: 'David Tepper converting hedge fund into family office, returning outside capital.' Confirmed current/recent activity: tripled Micron position to $428.1M per 2026 Q1 CNBC coverage.",
+      "sources": [
+        "https://www.cnbc.com/2019/05/23/david-tepper-is-reportedly-converting-hedge-fund-into-a-family-office-returning-outside-capital.html",
+        "https://www.cnbc.com/2026/05/21/billionaire-investments-q1.html"
+      ],
+      "verification_scope_note": "Press/database verified (CNBC, Forbes, Institutional Investor), not SEC-primary verified."
+    },
+    {
+      "name": "Cohen Private Ventures",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Cohen (Steven A. Cohen)",
+      "reason": "Stamford, CT. Explicitly 'a single-family office of Steven A. Cohen', led by Andrew B. Cohen (CIO/Co-Founder). Invests in direct private equity, growth equity, VC, structured securities, real estate, credit. IMPORTANT DISTINCTION correctly kept separate: Cohen ALSO runs Point72 (the former hedge fund, converted 2016 to a multi-family office with outside capital) - Cohen Private Ventures is the distinct single-family vehicle, not Point72. Do not conflate the two if Point72 is ever separately discovered.",
+      "sources": [
+        "https://familyofficehub.io/blog/the-cohen-family-office-cohen-private-ventures/",
+        "https://altss.com/profile/cohen-private-ventures-steve-cohen-family-office"
+      ],
+      "verification_scope_note": "Press/database verified, not SEC-primary verified."
+    },
+    {
+      "name": "Soros Fund Management",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Soros (George Soros)",
+      "reason": "New York. Converted to a family office in 2011, returning essentially all external investor capital (had been ~$25.5B, returned down to under $1B by year-end) specifically to avoid mandatory SEC investment-adviser registration under Dodd-Frank. 'His firm would focus on managing assets solely for Soros and his family.' Widely and repeatedly covered (InvestmentNews, WealthBriefing, PipelineRoad).",
+      "sources": [
+        "https://www.investmentnews.com/retirement-planning/george-soros-ditches-hedge-fund-empire-for-a-family-office/37776"
+      ],
+      "verification_scope_note": "Press/database verified, not SEC-primary verified (though the Dodd-Frank registration-avoidance motive is itself a well-documented regulatory fact, not just a press characterization)."
+    },
+    {
+      "name": "Tiger Management",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Robertson (Julian Robertson, d. 2022)",
+      "reason": "New York. After closing Tiger Management as a hedge fund, Julian Robertson 'converted it into his own family office.' Well documented on Wikipedia and multiple financial history sources. Distinct from the 'Tiger Cubs' - former Tiger employees who founded their OWN separate hedge funds (Lone Pine, Maverick, etc.) - those are NOT part of this entity and should not be conflated with it.",
+      "sources": [
+        "https://en.wikipedia.org/wiki/Tiger_Management"
+      ],
+      "verification_scope_note": "Press/Wikipedia verified, not SEC-primary verified."
+    },
+    {
+      "name": "Jones Family Office",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Jones (Paul Tudor Jones II)",
+      "reason": "Greenwich, CT. 'The single-family office for Paul Tudor Jones, founder of Tudor Investments' - distinct from Tudor Investment Corporation (his hedge fund, which retains outside capital). Manages wealth through direct investments and partnerships across commodities, hedge funds, private equity, real estate, infrastructure. Multiply corroborated: Private Equity International, Altss ('Greenwich Single Family Office'), Buzzfile.",
+      "sources": [
+        "https://altss.com/profile/jones-family-office-paul-tudor-jones-ii-family-office"
+      ],
+      "verification_scope_note": "Press/database verified, not SEC-primary verified."
+    },
+    {
+      "name": "Icahn Capital LP",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Icahn (Carl Icahn)",
+      "reason": "New York. 'A New York-based single family office that invests and manages all of Carl Icahn's assets' / 'manages the wealth of the Carl Icahn family.' IMPORTANT: this is DISTINCT from 'Icahn Enterprises' (IEP), Icahn's publicly-traded holding company on Nasdaq with public shareholders - that entity is explicitly NOT a family office (it's publicly traded) and must not be confused with or substituted for Icahn Capital LP.",
+      "sources": [
+        "https://www.preqin.com/data/profile/investor/icahn-capital/627067"
+      ],
+      "verification_scope_note": "Press/database verified, not SEC-primary verified."
+    },
+    {
+      "name": "The Dalio Family Office",
+      "verdict": "qualifies",
+      "firm_type": "single_family_office",
+      "principal_family": "Dalio (Ray Dalio, Bridgewater Associates founder)",
+      "reason": "Offices in US, Abu Dhabi Global Market, and Singapore. Established 2011 'to manage the resulting wealth and coordinate estate and philanthropic matters' for Ray Dalio. Following his retirement from Bridgewater, Dalio became CIO of his own family office. Multiply corroborated: Bloomberg ('Ray Dalio Embraces Family Office Life as CIO'), Altss, PipelineRoad, andsimple.co case study.",
+      "sources": [
+        "https://www.bloomberg.com/news/articles/2025-09-17/ray-dalio-embraces-family-office-life-as-cio-i-m-the-guy-now"
+      ],
+      "verification_scope_note": "Press/database verified, not SEC-primary verified."
+    }
+  ],
+  "enrichment_found_for_existing_records": [
+    {
+      "existing_record": "Hillspire (Eric & Wendy Schmidt)",
+      "found": "Schmidt Family Foundation (Chicago, IL) and Schmidt Ocean Institute (Palo Alto, CA) - real, ProPublica-indexed 990 filers tied to the same family. Usable as background/philanthropic-activity enrichment, not as new discovery.",
+      "source": "ProPublica Nonprofit Explorer search_foundations('Schmidt')"
+    },
+    {
+      "existing_record": "Jaws Estates Capital (Barry Sternlicht)",
+      "found": "The Barry S Sternlicht Foundation and Barry And Mimi Sternlicht Foundation (both Wilmington, DE) - real, ProPublica-indexed 990 filers, cross-validates the Sternlicht family connection independently of the CNBC press source already on file.",
+      "source": "ProPublica Nonprofit Explorer search_foundations('Sternlicht')"
+    }
+  ]
+}
