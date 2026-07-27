@@ -582,7 +582,8 @@
   },
   {
     "name": "Wildcat Capital Management",
-    "investment_thesis": "Public equities and direct investments; measured, long-term positioning rather than rapid trading (e.g. the TIC Solutions exit was a multi-year hold)."
+    "investment_thesis": "Public equities and direct investments; measured, long-term positioning rather than rapid trading (e.g. the TIC Solutions exit was a multi-year hold).",
+    "enrichment_notes": "General office contact found on firm website (wildcatcap.com), NOT verified as a principal's direct line: info@wildcatcap.com, 212-468-5100, 888 7th Avenue 37th Fl, New York, NY 10106."
   },
   {
     "name": "Duquesne Family Office",
@@ -610,7 +611,9 @@
   },
   {
     "name": "Maelstrom",
-    "investment_thesis": "Early-stage crypto/decentralization infrastructure investing with a long-term, patient mandate; expanding into private-equity-style acquisitions of established mid-sized crypto-ecosystem businesses."
+    "investment_thesis": "Early-stage crypto/decentralization infrastructure investing with a long-term, patient mandate; expanding into private-equity-style acquisitions of established mid-sized crypto-ecosystem businesses.",
+    "corporate_linkedin": "https://www.linkedin.com/company/maelstromfund",
+    "enrichment_notes": "Corporate LinkedIn confirmed via web search - official active page, corroborated by Arthur Hayes' own LinkedIn post referencing 'my family office Maelstrom' and the firm's own website (maelstrom.fund)."
   },
   {
     "name": "Henry Crown and Company",
@@ -622,7 +625,9 @@
   },
   {
     "name": "Appaloosa Management",
-    "investment_thesis": "Public equities with sector conviction (e.g. tripled Micron stake in Q1 2026 on semiconductor demand); continues Tepper's macro/distressed-credit-informed public markets approach from his hedge fund era."
+    "investment_thesis": "Public equities with sector conviction (e.g. tripled Micron stake in Q1 2026 on semiconductor demand); continues Tepper's macro/distressed-credit-informed public markets approach from his hedge fund era.",
+    "corporate_linkedin": "https://www.linkedin.com/company/appaloosa-management-lp",
+    "enrichment_notes": "Corporate LinkedIn confirmed via web search - official company page for the firm (financial services category), name matches exactly. A candidate personal LinkedIn for David Tepper was also found but NOT added - insufficient time to independently verify authenticity given high impersonation risk for public figures."
   },
   {
     "name": "Cohen Private Ventures",
@@ -655,12 +660,15 @@
   },
   {
     "name": "Icahn Capital LP",
-    "investment_thesis": "Classic activist model: acquire a significant stake in an undervalued/mismanaged public company, seek board representation via 13D filings, publicly advocate for change (asset sales, capital return, restructuring). Highly concentrated and idiosyncratic portfolio by design - influence over diversification. At 88, Icahn remains the primary decision-maker after five decades of activist investing."
+    "investment_thesis": "Classic activist model: acquire a significant stake in an undervalued/mismanaged public company, seek board representation via 13D filings, publicly advocate for change (asset sales, capital return, restructuring). Highly concentrated and idiosyncratic portfolio by design - influence over diversification. At 88, Icahn remains the primary decision-maker after five decades of activist investing.",
+    "corporate_linkedin": "https://www.linkedin.com/company/icahn-capital-lp",
+    "enrichment_notes": "Corporate LinkedIn confirmed via web search - official page, address matches known White Plains, NY location. Low follower count (12) noted as a caveat, not treated as disqualifying since many private family offices deliberately keep minimal social presence."
   },
   {
     "name": "DNS Capital, LLC",
     "corporate_linkedin": "https://www.linkedin.com/company/dns-capital",
-    "investment_thesis": "Long-term, relationship-driven investing in exceptional management teams to compound capital over time ('Does Not Suck' is the literal DNS acronym meaning). Targets middle-market companies with $10-50M EBITDA and a permanent capital base; 30+ investments spanning early-stage through mature companies with 50M+ EBITDA."
+    "investment_thesis": "Long-term, relationship-driven investing in exceptional management teams to compound capital over time ('Does Not Suck' is the literal DNS acronym meaning). Targets middle-market companies with $10-50M EBITDA and a permanent capital base; 30+ investments spanning early-stage through mature companies with 50M+ EBITDA.",
+    "enrichment_notes": "General office contact found on firm website (dnscap.com), NOT verified as a principal's direct line: info@dnscap.com, 400 N. Michigan Avenue Suite S1700, Chicago, IL 60611."
   },
   {
     "name": "Pontegadea Inversiones",
@@ -743,13 +751,15 @@
     "name": "Duchossois Capital Management",
     "corporate_linkedin": "https://www.linkedin.com/company/duchossois-capital-management",
     "investment_thesis": "Applies industry knowledge, operational expertise, and a permanent capital base built over 10 decades as a family business. Four strategy areas: Private Capital, Real Estate, Funds, Public Securities (buyouts, recapitalizations, add-ons, growth equity). Targets companies with $50M-$1B revenue, $10-200M EBITDA, $15-50M typical check size.",
-    "investing_sectors": "Technology, healthcare, engineered industrial products, building products, transportation/logistics/rail leasing, value-added distribution, consumer durables, security"
+    "investing_sectors": "Technology, healthcare, engineered industrial products, building products, transportation/logistics/rail leasing, value-added distribution, consumer durables, security",
+    "enrichment_notes": "General office contact found on firm website (dcmllc.com), NOT verified as a principal's direct line: info@dcmllc.com, 312.586.2080, 444 W. Lake St Suite 2000, Chicago, IL 60606."
   },
   {
     "name": "Henry Crown and Company",
     "principal_name": "James S. Crown (d. June 25, 2023) - Chairman/CEO/President; current leadership post-2023 not confirmed in sources reviewed",
     "investing_sectors": "Sports franchises (stakes in Chicago Bulls, New York Yankees), leisure (Aspen Skiing Company), banking (JPMorgan Chase stake), real estate (Rockefeller Center stake), industrials (General Dynamics stake + board seat)",
-    "enrichment_notes": "IMPORTANT: James Crown, listed elsewhere as a current active leader, died June 25, 2023. Current (2026) leadership of the firm was NOT confirmed in sources reviewed this session - this is an honest gap, not filled with a guess. Do not present James Crown as current active CEO without flagging this."
+    "enrichment_notes": "IMPORTANT: James Crown, listed elsewhere as a current active leader, died June 25, 2023. Current (2026) leadership of the firm was NOT confirmed in sources reviewed this session - this is an honest gap, not filled with a guess. Do not present James Crown as current active CEO without flagging this. | Corporate LinkedIn confirmed via web search - official page, 1,100 followers, description matches known Chicago-based operations (real estate, public securities, investment funds).",
+    "corporate_linkedin": "https://www.linkedin.com/company/henry-crown-&-company"
   },
   {
     "name": "Geller Family Office Services, LLC",
@@ -863,7 +873,9 @@
   },
   {
     "name": "Latsco Family Office",
-    "investment_thesis": "Direct strategic investments and joint ventures (e.g. with EOS Capital Partners, Motor Oil) leveraging the family's shipping/energy heritage, expanding into infrastructure, real estate, fintech, and broader Greek-economy opportunities."
+    "investment_thesis": "Direct strategic investments and joint ventures (e.g. with EOS Capital Partners, Motor Oil) leveraging the family's shipping/energy heritage, expanding into infrastructure, real estate, fintech, and broader Greek-economy opportunities.",
+    "corporate_linkedin": "https://gr.linkedin.com/company/latsco-family-office",
+    "enrichment_notes": "Corporate LinkedIn confirmed via web search - official page, 1,375 followers, matches known Athens headquarters and Latsis family ownership."
   },
   {
     "name": "Family Office Partners",

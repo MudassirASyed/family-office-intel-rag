@@ -7,8 +7,12 @@ validation logic, confidence assessment, and exact sources or links used."*
 These 3 were deliberately chosen to show three different things: the
 strongest evidence tier we found (West Family Investments), a real error
 caught and prevented from entering the dataset (Kemnay Advisory Services),
-and a clean multi-source cross-validation with a correctly-scoped financial
-signal (Duquesne Family Office).
+and the hardest-won record in the file — a genuinely ambiguous
+single-family office where the classification itself needed a judgment
+call, two different people are legitimately "the principal" for different
+reasons, and the personal-contact gap the brief calls out as the core
+difficulty of this market shows up directly, unresolved, rather than
+smoothed over (Wildcat Capital Management).
 
 ---
 
@@ -100,42 +104,60 @@ stated standard than a wrong number would be.
 
 ---
 
-## 3. Duquesne Family Office
+## 3. Wildcat Capital Management
 
-**Discovery source:** Press seed (`seed_candidates_researched.py`),
-independently re-verified via the SEC 13F channel this session — the same
-dual-path pattern as Kemnay, used deliberately as a contrast case.
+**Discovery source:** Press coverage of a 2025 exit
+(`ingestion/seed_candidates_researched.py` seed set) — a single source
+class, weaker than West's SEC primary declaration or Kemnay's dual
+press+SEC path, and honestly scored that way (confidence 0.4, not 0.7+).
+Chosen for this validation chain specifically because it is *not* the
+easy case.
 
-**Extraction method:** CNBC named Duquesne and Stanley Druckenmiller
-directly. `get_entity_profile()` (CIK 1536411) confirmed registered name,
-NYC address (40 West 57th Street), and continuous 13F filing history
-2013–2026.
+**Extraction method:** Yahoo Finance/Motley Fool coverage of a $16.6M
+TIC Solutions exit named Wildcat as "founded 2011 as the single-family
+office of David Bonderman" (TPG co-founder). Corporate LinkedIn
+(`linkedin.com/company/wildcat-capital-management`) and the firm's own
+site (`wildcatcap.com`) were checked directly, not assumed from the
+press mention alone.
 
-**Validation logic:** Ran the *same* joint-filing check used on Kemnay:
-`get_filing_summary()` on the most recent 13F returned
-`otherIncludedManagersCount = 0` **and** a `tableValueTotal` of ~$3.4–4.2B —
-a figure that is actually plausible for a known billionaire's single-family
-office, unlike Kemnay's. This is the deliberate contrast: identical
-verification method applied to two records, one passing the plausibility
-check clean, one failing it. Top holding confirmed directly from the parsed
-information table: Natera Inc, $612.7M as of the 2026-05-15 filing.
+**Validation logic — where this one actually got hard:** One source
+describes Wildcat as also "managing assets for an institutional client
+base" beyond the Bonderman family - a real complication for a
+single-family-office classification, not a footnote. Rather than either
+ignore it or reflexively downgrade the record, the original press
+evidence ("founded as the single-family office of David Bonderman") was
+weighed against this caveat and judged to still hold - the institutional
+detail was logged as an explicit, visible caveat in the record's `notes`
+field instead of silently resolved either direction. Separately, the
+"principal" itself turned out not to be a single clean answer: David
+Bonderman died December 2024, and Len Potter (ex-Soros Fund Management
+private equity co-head) has run Wildcat as CEO & CIO since 2011 - the
+*operating* principal, distinct from Bonderman as the *family* principal
+whose wealth the office exists to manage. Both were recorded, labeled by
+role, rather than arbitrarily picking one and dropping the other.
 
-**Enrichment steps:** A second, non-obvious principal was found and added —
-Sue Meng, Partner & Managing Director, who leads Duquesne's private
-investment strategy in disruptive technology and life sciences — sourced
-independently of Druckenmiller's own press coverage, via a dedicated
-LinkedIn/Bloomberg search on the firm rather than the person. Recent activity
-enriched with confirmed exits (Entegris, ON Semiconductor) and a new Q4 2025
-Bloom Energy position, both from CNBC's 13F coverage.
+**Enrichment steps, including today's live attempt at the hardest gap in
+the dataset:** AUM ($4.08-4.1B) added from 13F-adjacent holdings data.
+For principal contact specifically - the field this entire dataset is
+weakest on for single-family offices - `wildcatcap.com` was fetched
+directly and returned a real general office contact:
+`info@wildcatcap.com`, 212-468-5100, 888 7th Avenue 37th Fl, New York,
+NY. This was deliberately **not** written into `principal_email` or
+`principal_phone`: every other populated `principal_email` in this
+dataset is a named-person address (e.g. `chris@biltmorefamilyoffice.com`),
+and a generic `info@` inbox does not meet that bar - filling it in would
+have meant presenting a general company inbox as a verified
+decision-maker contact, which is precisely the kind of guessed-value-
+dressed-as-verified the brief disqualifies. It was logged in `notes`
+as a clearly-labeled general office contact instead. The field stays
+honestly blank.
 
-**Confidence assessment:** 0.7 — `press_named_sfo` (0.4) + `sec_13f_clean`
-(0.3), identical composition to Kemnay's score. The scores being equal is
-itself informative: confidence here measures *evidence class*, not *AUM
-size* — Kemnay and Duquesne are equally well-evidenced as real
-single-family offices, even though only one of their AUM figures could be
-trusted.
+**Confidence assessment:** 0.4 — `press_named_sfo` alone. No SEC 13F
+corroboration was found for this specific entity, so it carries a real,
+visible confidence gap relative to West and Kemnay, not an inflated
+score to match them.
 
 **Exact sources:**
-- https://www.cnbc.com/2026/02/26/billionaire-family-office-investments.html (press)
-- https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1536411&type=13F-HR (filing history)
-- Direct fetch of `form13f_20260331.xml` (holdings) and `primary_doc.xml` (summary/joint-filing check) via `ingestion/sec_13f_search.py`
+- https://finance.yahoo.com/news/billionaire-family-offices-16-6-183153119.html (press, discovery + exit detail)
+- https://www.linkedin.com/company/wildcat-capital-management (corporate LinkedIn)
+- https://www.wildcatcap.com (direct fetch, general office contact)

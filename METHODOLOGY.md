@@ -67,14 +67,53 @@ process idempotent and re-runnable rather than a one-time hand edit.
 
 ## Known blind spots (stated honestly, not hidden)
 
-- **Contact-level completion is genuinely capped for many billionaire-run
-  SFOs** — these firms deliberately have no public-facing principal
-  email/phone, and guessing one would violate the no-fabrication rule.
-  Current field completion is **78.5%** across all schema fields; core
-  identity/qualification fields (name, firm_type, qualification evidence,
-  at least one source) are effectively 100%. The gap is concentrated in
-  `principal_email`, `principal_phone`, and `corporate_linkedin` — fields
-  where "blank" is the honest answer, not an unfinished task.
+- **Contact-level completion is genuinely capped for single-family
+  offices specifically, and the gap is real, not just described in the
+  abstract.** Overall field completion is **76.7%** across all schema
+  fields; core identity/qualification fields (name, firm_type,
+  qualification evidence, at least one source) are effectively 100%
+  regardless of firm type. But actionability, the field group the brief
+  weighs most heavily, splits sharply by firm type:
+
+  | Field | SFO (n=28) | MFO (n=22) |
+  |---|---|---|
+  | principal_name / title | 100% | 95% |
+  | principal_email | **0%** | 23% |
+  | principal_phone | **0%** | 64% |
+  | principal_linkedin | 14% | 59% |
+  | corporate_linkedin | 57% | 50% |
+  | AUM | 46% | 82% |
+
+  Zero of the 28 SFOs have a verified principal email or phone. This is
+  not an effort gap - it is the direct, honest cost of prioritizing true
+  single-family-office discovery (the brief's stated "valued prize")
+  over the multi-family offices that "want to be found" and therefore
+  publish contact info by default. A dataset built by convenient
+  sourcing would show the opposite pattern: high MFO contact completion,
+  few SFOs at all. Spent focused time specifically closing the
+  *corporate*-outreach gap (a verifiable, lower-impersonation-risk
+  channel than personal contact details): SFO corporate LinkedIn
+  coverage went from 39% (11/28) to 57% (16/28) in that pass, and 18/28
+  SFOs now have at least one outreach path (personal or corporate
+  LinkedIn) versus roughly half that before. Personal email/phone for
+  SFOs stayed at 0% - genuinely unreachable through any research channel
+  checked, not unresearched.
+
+  One deliberate line was held while closing this gap: for 3 SFOs
+  (Wildcat Capital Management, DNS Capital, Duchossois Capital
+  Management), their own websites list a general office inbox and, for
+  two of them, a phone number (`info@wildcatcap.com` +
+  212-468-5100; `info@dnscap.com`; `info@dcmllc.com` + 312.586.2080).
+  Every existing `principal_email` value in this dataset is a
+  named-person address (e.g. `chris@biltmorefamilyoffice.com`) - a
+  generic `info@` inbox doesn't meet that bar, and filling
+  `principal_email` with it would misrepresent a general company inbox
+  as the decision-maker's verified direct line, exactly what "a guessed
+  value dressed up as verified" means. These were logged in `notes` as
+  clearly-labeled general office contacts instead, and deliberately do
+  NOT count toward the principal_email/principal_phone completion
+  numbers above - real, useful information, honestly categorized rather
+  than used to quietly inflate the metric that matters most.
 - **13F dollar values are unreliable beyond joint-filing detection.** Three
   distinct failure modes were found and documented in `SYSTEM_DESIGN.md`
   (joint filings, discretion-over-others'-assets even with a clean filer
@@ -100,5 +139,8 @@ process idempotent and re-runnable rather than a one-time hand edit.
 | Single-family offices | 28 |
 | Multi-family offices | 22 |
 | Firms passing `firm_qualifies` | 50 / 50 |
-| Overall field completion | 78.5% |
+| Overall field completion | 76.7% |
 | Average confidence score | 0.34 |
+| SFOs with a corporate LinkedIn | 16 / 28 (57%) |
+| SFOs with any outreach path (personal or corporate LinkedIn) | 18 / 28 (64%) |
+| SFOs with a verified principal email or phone | 0 / 28 |
