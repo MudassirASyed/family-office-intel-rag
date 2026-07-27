@@ -69,7 +69,7 @@ process idempotent and re-runnable rather than a one-time hand edit.
 
 - **Contact-level completion is genuinely capped for single-family
   offices specifically, and the gap is real, not just described in the
-  abstract.** Overall field completion is **76.7%** across all schema
+  abstract.** Overall field completion is **77.3%** across all schema
   fields; core identity/qualification fields (name, firm_type,
   qualification evidence, at least one source) are effectively 100%
   regardless of firm type. But actionability, the field group the brief
@@ -80,9 +80,9 @@ process idempotent and re-runnable rather than a one-time hand edit.
   | principal_name / title | 100% | 95% |
   | principal_email | **0%** | 23% |
   | principal_phone | **0%** | 64% |
-  | principal_linkedin | 14% | 59% |
-  | corporate_linkedin | 57% | 50% |
-  | AUM | 46% | 82% |
+  | principal_linkedin | 11% | 59% |
+  | corporate_linkedin | 64% | 50% |
+  | AUM | 43% | 82% |
 
   Zero of the 28 SFOs have a verified principal email or phone. This is
   not an effort gap - it is the direct, honest cost of prioritizing true
@@ -130,6 +130,41 @@ process idempotent and re-runnable rather than a one-time hand edit.
   integrity review (empty `evidence` field), re-researched, and reversed
   to reject — recorded here as an example of the review catching itself,
   not swept under the rug.
+- A second, later catch of the same kind: **Hemendra Kothari Family
+  Office** was in the dataset with its own `notes` field admitting the
+  problem outright - *"'Kothari' is a common Indian surname with
+  multiple distinct wealthy families with their own family offices...
+  this record is my best-evidenced match, not a certain one."* That is a
+  Rule 2 (firm identity) failure, not a Rule 1 (cell uncertainty) one -
+  the brief is explicit that an unresolved identity question means the
+  record does not qualify, regardless of how well other cells are
+  sourced. An attempt to resolve it with more research briefly produced
+  a false positive (a search summary claimed a third source explicitly
+  confirmed the connection; directly fetching that source showed it did
+  not say that at all - a live example of exactly the kind of
+  verification gap this whole project is built to catch, this time in
+  my own research process). Replaced with **DFO Management, LLC**
+  (Michael Dell's family office, formerly MSD Capital, L.P.) - unambiguous
+  identity confirmed via SEC EDGAR (CIK 1105497, active non-joint 13F
+  filer) plus independent press/reference corroboration, confidence 0.7
+  vs. the removed record's 0.1. The same 13F-value-implausibility issue
+  documented elsewhere in this file also showed up on this record's
+  first pull ($78.24B against a small-cap REIT) and was caught the same
+  way - the value was dropped, the identity was not.
+- **Geographic scope was narrowed to US and Europe as a deliberate product
+  decision, separate from the evidence-quality point above.** The
+  dataset's one remaining non-US/EU record (Adar Poonawalla Family
+  Office, India) was well-evidenced - multi-source corroborated, no
+  identity ambiguity - and was removed anyway, on scope grounds rather
+  than quality grounds. Replaced with **Willett Advisors LLC** (Michael
+  Bloomberg's single-family office, est. 2010): SEC-confirmed as a real
+  registered entity (CIK 1509379, address matches independent sources
+  exactly) plus unambiguous press corroboration (confidence 0.75, the
+  second-highest in this dataset). One honesty note on this record: its
+  SEC 13F filings are stale (last filed 2014) - its `sec_filing` source
+  class here means "confirmed to exist as a registered entity," not
+  "currently active 13F filer," and that distinction is stated
+  explicitly rather than implied.
 
 ## Final composition
 
@@ -139,8 +174,9 @@ process idempotent and re-runnable rather than a one-time hand edit.
 | Single-family offices | 28 |
 | Multi-family offices | 22 |
 | Firms passing `firm_qualifies` | 50 / 50 |
-| Overall field completion | 76.7% |
-| Average confidence score | 0.34 |
-| SFOs with a corporate LinkedIn | 16 / 28 (57%) |
-| SFOs with any outreach path (personal or corporate LinkedIn) | 18 / 28 (64%) |
+| Overall field completion | 77.3% |
+| Average confidence score | 0.36 |
+| SFOs with a corporate LinkedIn | 18 / 28 (64%) |
+| SFOs with any outreach path (personal or corporate LinkedIn) | 19 / 28 (68%) |
 | SFOs with a verified principal email or phone | 0 / 28 |
+| Geographic scope | US and Europe only (deliberate scope decision, see below) |
