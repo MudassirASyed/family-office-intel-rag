@@ -5,7 +5,7 @@
 | Piece | Choice | Why |
 |---|---|---|
 | Vector store | Chroma (local, embedded) | Zero external infra for a 50-record / ~150-chunk dataset; full-rebuild-on-index is cheap at this scale (see below) |
-| Embedding model | `sentence-transformers/all-MiniLM-L6-v2` | Free, runs locally (no per-call cost or API key), fast enough for a 148-chunk corpus (~2-3s to fully re-embed), good-enough semantic quality for short structured chunks |
+| Embedding model | Cohere `embed-english-v3.0` (hosted API) | Started local (`sentence-transformers/all-MiniLM-L6-v2`, then Chroma's bundled ONNX runtime of the same model) - both got the RAG pipeline built and tested cheaply with zero API key friction. Switched to hosted for deployment: a locally-loaded model, even a "lightweight" ONNX one, was still tight enough against Render's free-tier 512MB cap to intermittently OOM-crash. A hosted embedding call (same pattern as Groq/NewsAPI) removes the whole failure class rather than shrinking it. See "Deployment" below for the full story. |
 | Generation | Groq (Llama) | Free tier, fast inference, no local GPU needed |
 | API layer | FastAPI | Thin HTTP boundary between retrieval/data and presentation, required by the brief's layer-separation rule |
 | Frontend | Streamlit, calling the API over `requests` (HTTP), not importing `MicroRAG` in-process | Enforces the same layer separation on the client side — the frontend is a genuine external consumer of the API, not a shortcut |
@@ -200,6 +200,49 @@ it. Lesson: on Windows, `taskkill` any stray `python.exe` bound to the
 target port before restarting either process, don't assume Ctrl+C fully
 released the socket.
 
+## Deployment — three embedding attempts, live at https://family-office-intel-rag.onrender.com
+
+The API is deployed on Render's free tier (512MB RAM). Getting there
+took three real attempts, not a one-shot success:
+
+1. **`sentence-transformers`/PyTorch** (the original local choice, built
+   and tested cheaply with zero API-key friction during development) -
+   used ~650-700MB in this process alone locally. OOM-killed instantly on
+   Render (`status 137`) - PyTorch's own weight, not the embedding
+   model's size, was the problem.
+2. **Chroma's bundled ONNX-runtime embedding** (same `all-MiniLM-L6-v2`
+   model, much lighter runtime) - dropped steady-state memory to
+   ~150MB locally, and batched the embed calls (25 chunks per `add()`
+   instead of ~150 at once) to cut the startup spike further. This got
+   the service *live* for the first time, but it was still borderline:
+   `/reindex` (which re-embeds everything live, a heavier operation than
+   startup) intermittently OOM-crashed the whole process, and even a
+   fresh cold boot occasionally did too. Not a fix, a coin-flip.
+3. **Cohere's hosted embedding API** (`embed-english-v3.0`, free tier, no
+   card required) - the actual fix. No embedding model of any kind loads
+   into this process anymore; embedding happens on Cohere's
+   infrastructure over a plain HTTPS call, the same pattern already used
+   for Groq (generation) and NewsAPI (discovery). Verified after
+   switching: startup, `/query`, and `/reindex` (the exact operation that
+   crashed the service before) all succeed, and the full adversarial/
+   correctness battery above was re-run and still passes against the new
+   embedder.
+
+Honest lesson, stated plainly: on a memory-constrained free host, *any*
+locally-loaded ML model is a live operational risk, not just a one-time
+sizing exercise to get right - a model that fits "most of the time" is a
+production reliability problem, not a solved one. A hosted embedding API
+removes the entire failure class instead of shrinking it.
+
+A second, smaller finding from the same deployment work: calling
+`/reindex` against a *live* service is itself unsafe on this
+architecture - `VectorStore.rebuild()` deletes and replaces the Chroma
+collection object in place, and a concurrent in-flight request touching
+the old collection reference at that exact moment is a race condition,
+independent of memory. Since this dataset is frozen for the submission,
+`/reindex` is left in the code for local dev convenience but is not
+called against the deployed URL.
+
 ## What doesn't / known limitations
 
 - Grounding is lexical overlap, not semantic entailment (above).
@@ -224,3 +267,6 @@ released the socket.
 - Diagnose the root cause of the 13F batch-pull value-inflation bug
   (suspected XML schema-version drift across filers) instead of only
   mitigating it by dropping the field.
+- Guard `/reindex` with a lock (or swap collections atomically) so it's
+  safe to call against a live service instead of relying on "don't call
+  it in production" as the mitigation.
