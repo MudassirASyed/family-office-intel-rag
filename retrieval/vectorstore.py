@@ -26,13 +26,19 @@ class VectorStore:
         collection_name: str = CHROMA_COLLECTION_NAME,
     ):
         self.client = chromadb.PersistentClient(path=persist_dir)
-        # Chroma's bundled ONNX-runtime embedding function - same
-        # all-MiniLM-L6-v2 model as before, but via onnxruntime instead
-        # of full sentence-transformers/PyTorch. Switched after the
-        # PyTorch-based version pushed the API process to ~650-700MB
-        # locally, well past Render's free-tier 512MB cap. No change in
-        # embedding model or quality, just a much lighter runtime.
-        self.embed_fn = embedding_functions.DefaultEmbeddingFunction()
+        # Hosted embedding API (Cohere), not a locally-loaded model.
+        # Two local approaches were tried and rejected on Render's
+        # free-tier 512MB cap: sentence-transformers/PyTorch (~650-700MB
+        # process) and Chroma's bundled ONNX runtime (~150MB steady
+        # state, but still OOM-killed intermittently during startup/
+        # reindex - close enough to the ceiling to be unreliable, not a
+        # fix). Calling a hosted API - the same pattern already used for
+        # Groq (generation) and NewsAPI (discovery) - means no embedding
+        # model of any kind runs in this process; the API service is
+        # just FastAPI + chromadb's vector math + outbound HTTP calls.
+        self.embed_fn = embedding_functions.CohereEmbeddingFunction(
+            model_name="embed-english-v3.0"
+        )
         self.collection_name = collection_name
         self.collection = self.client.get_or_create_collection(
             name=collection_name, embedding_function=self.embed_fn

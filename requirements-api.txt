@@ -7,6 +7,8 @@
 requests
 beautifulsoup4
 chromadb
+cohere
+pillow
 groq
 python-dotenv
 fastapi

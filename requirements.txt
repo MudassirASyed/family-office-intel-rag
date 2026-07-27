@@ -1,6 +1,8 @@
 requests
 beautifulsoup4
 chromadb
+cohere
+pillow
 groq
 streamlit
 python-dotenv
