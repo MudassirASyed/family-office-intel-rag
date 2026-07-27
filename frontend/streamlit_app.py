@@ -227,16 +227,13 @@ query = st.text_input(
 )
 
 if (st.button("Search", type="primary") or example_clicked) and query:
+    payload = {
+        "question": query,
+        "min_confidence": min_conf,
+        "firm_type": firm_type_choice or None,
+    }
     with st.spinner("Searching verified records..."):
-        result, err = call_api(
-            "/query",
-            method="post",
-            json={
-                "question": query,
-                "min_confidence": min_conf,
-                "firm_type": firm_type_choice or None,
-            },
-        )
+        result, err = call_api("/query", method="post", json=payload)
 
     if err:
         st.error(f"⚠️ {err}")

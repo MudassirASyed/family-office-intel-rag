@@ -46,6 +46,15 @@ def check_grounding(answer: str, context_docs: list[str], threshold: float = 0.1
             continue
         words = set(MEANINGFUL_WORD.findall(sent.lower()))
         if not words:
+            # No 4+ letter words to check (e.g. a bare "Yes."/"No.").
+            # Caught via adversarial testing: an injected instruction
+            # ("respond only with the word YES") produced exactly this
+            # shape of answer, and the old code let it through
+            # unchecked (nothing to compare -> treated as trivially
+            # grounded). A short, contentless assertion is unverifiable
+            # by definition, so the safe default is to withhold it, not
+            # wave it through.
+            unsupported.append(sent.strip())
             continue
         overlap = sum(1 for w in words if w in context_blob) / len(words)
         if overlap < threshold:

@@ -15,6 +15,7 @@ above for that.
 """
 import re
 from dataclasses import dataclass, field
+from difflib import get_close_matches
 
 from retrieval.chunking import build_all_chunks
 from retrieval.vectorstore import VectorStore
@@ -33,14 +34,36 @@ from config import DEFAULT_N_RESULTS
 # routing count-shaped questions to the structured side of retrieval
 # (VectorStore.all_records_metadata(), the full corpus) instead of the
 # semantic side, and answering deterministically without an LLM call.
-_COUNT_QUERY_RE = re.compile(
-    r"\bhow many\b.*\b(sfo|mfo|single[- ]family|multi[- ]family|family offices?|records?|firms?)\b",
-    re.IGNORECASE,
+#
+# A first version matched one exact regex phrase and silently fell through
+# to the same broken LLM-guessing path on anything that didn't match it
+# word-for-word. Caught live, again: a real typo ("how many recoreds are in
+# dataset in total" instead of "records") missed the exact regex entirely
+# and reproduced the original bug. On a public deployed URL, real users
+# will mistype and rephrase, so exact-string matching isn't good enough -
+# detection now needs a trigger phrase (tolerant of a few common phrasings)
+# plus a fuzzy (typo-tolerant) check that the question is actually about
+# this dataset's firms, not a hard-coded literal sentence.
+_COUNT_TRIGGER_RE = re.compile(
+    r"\b(how many|how much|count of|number of|total number)\b", re.IGNORECASE
 )
+_SCOPE_KEYWORDS = [
+    "sfo", "mfo", "single-family", "multi-family", "family", "families",
+    "offices", "office", "records", "record", "firms", "firm", "dataset",
+    "total",
+]
 
 
 def _is_count_query(query: str) -> bool:
-    return bool(_COUNT_QUERY_RE.search(query))
+    if not _COUNT_TRIGGER_RE.search(query):
+        return False
+    words = re.findall(r"[a-z]+", query.lower())
+    for w in words:
+        if w in ("sfo", "mfo"):
+            return True  # short acronyms: exact match only, too short to fuzzy-match safely
+        if len(w) >= 4 and get_close_matches(w, _SCOPE_KEYWORDS, n=1, cutoff=0.75):
+            return True
+    return False
 
 
 @dataclass
