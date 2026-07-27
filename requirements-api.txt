@@ -1,0 +1,13 @@
+# Minimal dependency set for deploying api/main.py (e.g. on Render).
+# Excludes streamlit and its dependency tree entirely - the API process
+# never imports it, so there's no reason to spend deploy memory/build
+# time installing it. Use requirements.txt (which includes this file's
+# contents plus streamlit) for local dev and for the Streamlit Cloud
+# deploy of frontend/streamlit_app.py.
+requests
+beautifulsoup4
+chromadb
+groq
+python-dotenv
+fastapi
+uvicorn[standard]

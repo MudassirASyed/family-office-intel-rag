@@ -38,19 +38,30 @@ class VectorStore:
             name=collection_name, embedding_function=self.embed_fn
         )
 
-    def rebuild(self, chunks: list[Chunk]) -> int:
-        """Wipe and re-populate the collection from scratch. Returns chunk count."""
+    def rebuild(self, chunks: list[Chunk], batch_size: int = 25) -> int:
+        """
+        Wipe and re-populate the collection from scratch. Returns chunk count.
+
+        Embeds in small batches rather than one `add()` call for the whole
+        corpus - encoding ~150 texts through the ONNX model in a single
+        batch was enough of a memory spike to OOM-kill the process on
+        Render's free tier (512MB) even though steady-state usage
+        afterward is only ~150MB. Batching trades a few hundred
+        milliseconds of extra startup time for a much lower peak.
+        """
         self.client.delete_collection(self.collection_name)
         self.collection = self.client.get_or_create_collection(
             name=self.collection_name, embedding_function=self.embed_fn
         )
         if not chunks:
             return 0
-        self.collection.add(
-            ids=[c.id for c in chunks],
-            documents=[c.text for c in chunks],
-            metadatas=[c.metadata for c in chunks],
-        )
+        for i in range(0, len(chunks), batch_size):
+            batch = chunks[i : i + batch_size]
+            self.collection.add(
+                ids=[c.id for c in batch],
+                documents=[c.text for c in batch],
+                metadatas=[c.metadata for c in batch],
+            )
         return len(chunks)
 
     def count(self) -> int:
