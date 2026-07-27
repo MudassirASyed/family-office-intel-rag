@@ -28,10 +28,10 @@ MIN_CONFIDENCE_FOR_INCLUSION = 0.4
 
 # --- Retrieval layer ---
 
-# Local, free, no API key - sentence-transformers model used for both
-# indexing and query embedding. Kept as a single named constant so the
-# model can be swapped in one place without hunting through rag.py.
-EMBEDDING_MODEL_NAME = os.getenv("EMBEDDING_MODEL_NAME", "all-MiniLM-L6-v2")
+# Embedding model: Chroma's bundled ONNX-runtime all-MiniLM-L6-v2 (see
+# retrieval/vectorstore.py). Local, free, no API key. Originally used
+# sentence-transformers/PyTorch directly; switched to the ONNX runtime
+# version (same model) to fit Render's free-tier 512MB memory cap.
 
 CHROMA_PERSIST_DIR = os.getenv("CHROMA_PERSIST_DIR", "./chroma_db")
 CHROMA_COLLECTION_NAME = os.getenv("CHROMA_COLLECTION_NAME", "family_offices")

@@ -26,6 +26,12 @@ import re
 MEANINGFUL_WORD = re.compile(r"\b[a-z]{4,}\b")
 SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
 
+# A bare list marker ("1.", "2)") left over from splitting a numbered
+# list on ". " - a formatting artifact, not a claim, so it shouldn't be
+# judged as an unsupported assertion the way a real contentless
+# sentence (e.g. a bare "Yes.") should be.
+BARE_LIST_MARKER = re.compile(r"^\d+[.):]?$")
+
 # Short hedges/refusals shouldn't be penalized for low word overlap -
 # "I don't have enough information to answer that." is a *good*
 # outcome, not an ungrounded claim.
@@ -43,6 +49,8 @@ def check_grounding(answer: str, context_docs: list[str], threshold: float = 0.1
     unsupported = []
     for sent in sentences:
         if HEDGE_PATTERNS.search(sent):
+            continue
+        if BARE_LIST_MARKER.match(sent.strip()):
             continue
         words = set(MEANINGFUL_WORD.findall(sent.lower()))
         if not words:

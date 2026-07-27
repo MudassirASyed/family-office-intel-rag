@@ -1,7 +1,6 @@
 requests
 beautifulsoup4
 chromadb
-sentence-transformers
 groq
 streamlit
 python-dotenv

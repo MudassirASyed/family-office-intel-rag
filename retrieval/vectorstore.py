@@ -15,7 +15,7 @@ tradeoff, made on purpose.
 import chromadb
 from chromadb.utils import embedding_functions
 
-from config import CHROMA_PERSIST_DIR, CHROMA_COLLECTION_NAME, EMBEDDING_MODEL_NAME
+from config import CHROMA_PERSIST_DIR, CHROMA_COLLECTION_NAME
 from retrieval.chunking import Chunk
 
 
@@ -24,12 +24,15 @@ class VectorStore:
         self,
         persist_dir: str = CHROMA_PERSIST_DIR,
         collection_name: str = CHROMA_COLLECTION_NAME,
-        embedding_model: str = EMBEDDING_MODEL_NAME,
     ):
         self.client = chromadb.PersistentClient(path=persist_dir)
-        self.embed_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
-            model_name=embedding_model
-        )
+        # Chroma's bundled ONNX-runtime embedding function - same
+        # all-MiniLM-L6-v2 model as before, but via onnxruntime instead
+        # of full sentence-transformers/PyTorch. Switched after the
+        # PyTorch-based version pushed the API process to ~650-700MB
+        # locally, well past Render's free-tier 512MB cap. No change in
+        # embedding model or quality, just a much lighter runtime.
+        self.embed_fn = embedding_functions.DefaultEmbeddingFunction()
         self.collection_name = collection_name
         self.collection = self.client.get_or_create_collection(
             name=collection_name, embedding_function=self.embed_fn
