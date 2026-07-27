@@ -54,6 +54,33 @@ _SCOPE_KEYWORDS = [
 ]
 
 
+# The sidebar's confidence slider and a threshold typed *inside* the
+# question ("show every firm with confidence above 50%") are two
+# separate inputs - min_confidence was only ever read from the sidebar,
+# so typing a threshold in text while the slider sat at 0.0 was
+# silently ignored (the text-stated intent never took effect, no error,
+# no indication anything was dropped). Extracted here and combined with
+# whatever the sidebar sent - the stricter (higher) of the two wins,
+# and the effective value actually used is always stated in the answer
+# for the two structured paths below, so it's never silently ambiguous
+# even for phrasings this regex doesn't catch.
+_CONFIDENCE_THRESHOLD_RE = re.compile(
+    r"confidence\D{0,20}?(\d+(?:\.\d+)?)\s*%?|(\d+(?:\.\d+)?)\s*%?\D{0,20}?confidence",
+    re.IGNORECASE,
+)
+
+
+def _extract_text_confidence_threshold(query: str) -> float | None:
+    match = _CONFIDENCE_THRESHOLD_RE.search(query)
+    if not match:
+        return None
+    raw = match.group(1) or match.group(2)
+    value = float(raw)
+    if value > 1:
+        value /= 100.0
+    return max(0.0, min(1.0, value))
+
+
 def _is_count_query(query: str) -> bool:
     if not _COUNT_TRIGGER_RE.search(query):
         return False
@@ -183,7 +210,8 @@ class MicroRAG:
         if other:
             parts.append(f"{other} unclassified")
         answer = (
-            f"The dataset currently contains {len(filtered)} firm(s) matching your filters: "
+            f"The dataset currently contains {len(filtered)} firm(s) matching your filters "
+            f"(minimum confidence {round(min_confidence * 100)}%): "
             + ", ".join(parts) + ". This is an exact count over the full indexed dataset, "
             "not a semantic-search estimate."
         )
@@ -232,9 +260,10 @@ class MicroRAG:
 
         table = "\n".join([header, sep] + rows)
         answer = (
-            f"Complete dataset view - {len(filtered)} firm(s) matching your filters, "
-            f"core fields (not the full schema - see the source dataset file for "
-            f"verification sources/evidence per field):\n\n{table}"
+            f"Complete dataset view - {len(filtered)} firm(s) matching your filters "
+            f"(minimum confidence {round(min_confidence * 100)}%), core fields (not the "
+            f"full schema - see the source dataset file for verification sources/evidence "
+            f"per field):\n\n{table}"
         )
         return RagResponse(
             answer=answer,
@@ -265,11 +294,20 @@ class MicroRAG:
                 status="no_results",
             )
 
-        if _is_list_all_query(query):
-            return self._answer_list_all_query(min_confidence, firm_type)
-
-        if _is_count_query(query):
-            return self._answer_count_query(min_confidence, firm_type)
+        if _is_list_all_query(query) or _is_count_query(query):
+            # A threshold typed *inside* the question ("confidence above
+            # 50%") is a separate input from the sidebar's min_confidence
+            # slider - stated explicitly in text, it should not be
+            # silently dropped just because the slider itself is at 0.
+            # The stricter (higher) of the two wins.
+            text_threshold = _extract_text_confidence_threshold(query)
+            effective_min_confidence = (
+                max(min_confidence, text_threshold)
+                if text_threshold is not None else min_confidence
+            )
+            if _is_list_all_query(query):
+                return self._answer_list_all_query(effective_min_confidence, firm_type)
+            return self._answer_count_query(effective_min_confidence, firm_type)
 
         results = self.store.query(
             query, n_results=n_results, min_confidence=min_confidence, firm_type=firm_type
