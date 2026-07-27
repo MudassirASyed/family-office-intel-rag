@@ -66,6 +66,49 @@ def _is_count_query(query: str) -> bool:
     return False
 
 
+# Same underlying failure mode as the count-query bug above, different
+# intent: "list all records / complete dataset view" also needs the
+# whole corpus, not a top-8 semantic slice. Caught live on the deployed
+# app: "list all records in detail in tabular form, all fields... a
+# complete dataset view" returned only 8 records and just 3 fields
+# (Organization/Name/Title) - the LLM was, correctly, only shown 8
+# chunks and did its best with them, but the answer looked like a
+# complete listing when it silently wasn't one. Routed to the same
+# structured, full-corpus path as the count query.
+_LIST_ALL_TRIGGER_RE = re.compile(
+    r"\b(list all|show all|all records|all firms|complete (dataset|list|view)|"
+    r"full (dataset|list)|entire dataset|every (record|firm)|tabular (form|view))\b",
+    re.IGNORECASE,
+)
+
+
+_COMPLETENESS_WORDS = ["all", "complete", "entire", "every", "full", "whole"]
+
+
+def _is_list_all_query(query: str) -> bool:
+    if _LIST_ALL_TRIGGER_RE.search(query):
+        return True
+    # Fuzzy fallback for typos in the trigger phrase itself (e.g. "list
+    # al records"). Requires a completeness word AND a dataset-scope
+    # word - just "list"/"show" alone is a normal semantic question
+    # ("show me family offices investing in AI") and must not be routed
+    # here.
+    words = re.findall(r"[a-z]+", query.lower())
+    has_completeness = any(
+        w in _COMPLETENESS_WORDS
+        or (len(w) >= 4 and get_close_matches(w, _COMPLETENESS_WORDS, n=1, cutoff=0.8))
+        for w in words
+    )
+    if not has_completeness:
+        return False
+    for w in words:
+        if w in ("sfo", "mfo"):
+            return True
+        if len(w) >= 4 and get_close_matches(w, _SCOPE_KEYWORDS, n=1, cutoff=0.75):
+            return True
+    return False
+
+
 @dataclass
 class Source:
     name: str
@@ -97,8 +140,10 @@ class MicroRAG:
     def __init__(self):
         self.store = VectorStore()
         self.generator = AnswerGenerator()
+        self.records: list[dict] = []
 
     def index_records(self, records: list[dict]) -> int:
+        self.records = records
         chunks = build_all_chunks(records)
         return self.store.rebuild(chunks)
 
@@ -157,6 +202,55 @@ class MicroRAG:
             ],
         )
 
+    def _answer_list_all_query(self, min_confidence: float, firm_type: str | None) -> RagResponse:
+        filtered = [
+            r for r in self.records
+            if float(r.get("confidence", 0.0)) >= min_confidence
+            and (firm_type is None or r.get("firm_type") == firm_type)
+        ]
+        filtered.sort(key=lambda r: r.get("name", ""))
+
+        def cell(v) -> str:
+            v = (v or "").strip() if isinstance(v, str) else v
+            return str(v) if v else "N/A"  # plain ASCII - avoid Unicode console/encoding issues
+
+        header = "| Name | Type | Location | Principal | Title | AUM | Confidence |"
+        sep = "|---|---|---|---|---|---|---|"
+        rows = []
+        for r in filtered:
+            location = ", ".join(
+                p for p in [r.get("city"), r.get("state"), r.get("country")] if p
+            ) or "N/A"
+            type_label = {
+                "single_family_office": "SFO", "multi_family_office": "MFO",
+            }.get(r.get("firm_type"), "Unclear")
+            rows.append(
+                f"| {cell(r.get('name'))} | {type_label} | {location} | "
+                f"{cell(r.get('principal_name'))} | {cell(r.get('principal_title'))} | "
+                f"{cell(r.get('aum'))} | {round(float(r.get('confidence', 0.0)) * 100)}% |"
+            )
+
+        table = "\n".join([header, sep] + rows)
+        answer = (
+            f"Complete dataset view - {len(filtered)} firm(s) matching your filters, "
+            f"core fields (not the full schema - see the source dataset file for "
+            f"verification sources/evidence per field):\n\n{table}"
+        )
+        return RagResponse(
+            answer=answer,
+            grounded=True,
+            status="ok",
+            sources=[
+                Source(
+                    name=r.get("name", "unknown"),
+                    firm_type=r.get("firm_type", "unclear"),
+                    confidence=float(r.get("confidence", 0.0)),
+                    chunk_type="profile",
+                )
+                for r in filtered
+            ],
+        )
+
     def grounded_answer(
         self,
         query: str,
@@ -170,6 +264,9 @@ class MicroRAG:
                 grounded=True,
                 status="no_results",
             )
+
+        if _is_list_all_query(query):
+            return self._answer_list_all_query(min_confidence, firm_type)
 
         if _is_count_query(query):
             return self._answer_count_query(min_confidence, firm_type)
