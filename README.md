@@ -18,10 +18,12 @@ Built for the PolarityIQ Differentiator Stage 1 assessment.
   correctly-withheld off-topic answer) — see `DOCUMENTATION_NOTE.md`
   for the actual query/response pairs and `SYSTEM_DESIGN.md` for
   architecture rationale and what broke on first try.
-- **Live API deployed**: https://family-office-intel-rag.onrender.com
-  (`/health`, `/query`, `/reindex` — see `DOCUMENTATION_NOTE.md` for the
-  deployment story, including the memory-constrained free-tier fixes).
-  Frontend deploy in progress.
+- **Fully live and deployed**:
+  - API: https://family-office-intel-rag.onrender.com (`/health`,
+    `/query`, `/reindex` — see `DOCUMENTATION_NOTE.md` for the
+    deployment story, including the memory-constrained free-tier fixes)
+  - Frontend: https://family-office-intelligence.streamlit.app
+    (Streamlit Community Cloud, pointed at the live API above)
 
 ## Setup
 
@@ -133,7 +135,7 @@ whole class of failure rather than shrinking it.
 | Principal contact enrichment | Manual-but-logged per firm; honest blanks where no public contact exists (see METHODOLOGY.md blind spots) |
 | 3-record full validation chain | Complete — `VALIDATION_CHAIN.md` |
 | Live API deployment | Complete — https://family-office-intel-rag.onrender.com (Render), see "Deploying for real" above |
-| Live frontend deployment | In progress (Streamlit Community Cloud) |
+| Live frontend deployment | Complete — https://family-office-intelligence.streamlit.app (Streamlit Community Cloud) |
 
 See `SYSTEM_DESIGN.md` for architecture rationale mapped directly to
 the assessment's stated requirements.

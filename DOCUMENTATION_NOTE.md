@@ -200,7 +200,11 @@ it. Lesson: on Windows, `taskkill` any stray `python.exe` bound to the
 target port before restarting either process, don't assume Ctrl+C fully
 released the socket.
 
-## Deployment — three embedding attempts, live at https://family-office-intel-rag.onrender.com
+## Deployment — three embedding attempts to get the API live
+
+Live at:
+- API: https://family-office-intel-rag.onrender.com
+- Frontend: https://family-office-intelligence.streamlit.app
 
 The API is deployed on Render's free tier (512MB RAM). Getting there
 took three real attempts, not a one-shot success:
@@ -242,6 +246,47 @@ the old collection reference at that exact moment is a race condition,
 independent of memory. Since this dataset is frozen for the submission,
 `/reindex` is left in the code for local dev convenience but is not
 called against the deployed URL.
+
+## Production testing (day 2, on the live deployed app) - three more real findings
+
+Once both pieces were actually live, testing continued against the real
+URLs, not just locally - and it kept finding real gaps:
+
+**Bulk-listing questions hit the same structural bug as the count-query
+fix, different phrasing.** "List all records in tabular form... a
+complete dataset view" returned only 8 records and 3 fields from the
+live app - correct behavior for the top-8 semantic retrieval it went
+through, but it looked like a complete listing when it silently wasn't
+one. Fixed the same way as the count-query bug: routed bulk-listing
+intent (`_is_list_all_query()`, same trigger-phrase + fuzzy-scope
+pattern, typo-tolerant) to a structured path that builds a real table
+from every matching record in `self.records` - all 50 when unfiltered,
+confirmed by direct re-test.
+
+**A confidence threshold typed inside the question was silently
+ignored.** "Show every firm with confidence above 50%" with the sidebar
+slider left at 0.0 returned all 50 firms - the threshold in the *text*
+was never read, only the sidebar's `min_confidence` was. This isn't a
+fabrication bug like the earlier ones, but a real inconsistency: typing
+an explicit constraint and having it silently dropped is its own kind of
+untrustworthy behavior. Fixed by parsing an in-text threshold
+(`_extract_text_confidence_threshold()`) for the two structured paths
+(count, list-all) and using whichever of sidebar-vs-text is stricter -
+and always stating the effective value used in the answer, so it's
+never silently ambiguous even for phrasings the regex doesn't catch.
+
+**Pressing Enter in the search box appeared to do nothing.** With a
+plain `st.text_input` + `st.button("Search")`, Enter committed the
+typed value (a rerun happened) but didn't count as a "Search" click, so
+nothing visibly happened - confusing UX for what is obviously a search
+box, where every user's mental model is "Enter submits." The fix was
+not to disable Enter (which would have made the box even less
+responsive) but to wrap the input and button in `st.form(...)` with
+`st.form_submit_button`, Streamlit's own mechanism for making Enter
+inside a form trigger its submit action - matching ordinary search-box
+expectations instead of fighting them. Verified all three interaction
+paths still work after the change: Enter-only, the example-question
+chips, and an explicit Search click.
 
 ## What doesn't / known limitations
 

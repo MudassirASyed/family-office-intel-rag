@@ -220,13 +220,23 @@ for col, q in zip(cols, EXAMPLE_QUESTIONS):
         st.session_state["query_text"] = q
         example_clicked = True
 
-query = st.text_input(
-    "What would you like to know?",
-    key="query_text",
-    placeholder="e.g. Which family offices are investing in AI right now?",
-)
+# A plain st.text_input + st.button meant pressing Enter inside the box
+# committed the value (a rerun happened) but did NOT trigger a search,
+# since only a real Search-button click satisfied the condition below -
+# confusing "nothing happened" UX for what's obviously a search box,
+# where Enter-to-submit is the expected behavior (every search engine
+# works this way). st.form makes Enter inside it trigger the form's
+# submit button natively, matching that expectation, rather than
+# disabling Enter and making the box even less responsive.
+with st.form("search_form"):
+    query = st.text_input(
+        "What would you like to know?",
+        key="query_text",
+        placeholder="e.g. Which family offices are investing in AI right now?",
+    )
+    submitted = st.form_submit_button("Search", type="primary")
 
-if (st.button("Search", type="primary") or example_clicked) and query:
+if (submitted or example_clicked) and query:
     payload = {
         "question": query,
         "min_confidence": min_conf,
