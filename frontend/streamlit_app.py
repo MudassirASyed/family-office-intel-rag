@@ -41,9 +41,9 @@ FIRM_TYPE_BADGE_CLASS = {
 }
 
 EXAMPLE_QUESTIONS = [
-    "Which family offices are active in AI investing?",
-    "Who do I contact at Hillspire?",
-    "What has Duquesne Family Office done recently?",
+    "Who do I contact at Biltmore Family Office?",
+    "How many family offices do you have in total?",
+    "How many single-family offices do you have?",
 ]
 
 STATUS_STYLE = {
